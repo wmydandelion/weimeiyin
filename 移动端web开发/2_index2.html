@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        h3 {
+            background: #c3c3c3;
+            height: 100px;
+            text-align: center;
+            margin: 30px auto;
+            width: 960px;
+            line-height: 100px;
+        }
+
+        figure {
+            width: 960px;
+            margin: 0 auto;
+            background: url(01.jpg) no-repeat;
+            height: 768px;
+            background-size: 100% 100%;
+        }
+        
+        section {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        #left {
+            width: 630px;
+            height: 300px;
+            background: orchid;
+            float: left;
+            /*margin-right: 30px ;*/
+        }
+
+        #right {
+            width: 300px;
+            height: 300px;
+            background: indianred;
+            float: right;
+        }
+
+        #left, #right {
+            display: table;
+        }
+
+        #left p, #right p {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        section p {
+            text-align: center;
+        }
+
+        footer {
+            clear: both;
+        }
+
+
+
+        @media (max-width: 959px) {
+            h3 {
+                width: 100%;
+            }
+
+            section {
+                width: 100%;
+            }
+
+            figure {
+                width: 100%;
+                padding-top: 56%;
+                height: 0;
+                background: url("01_s_2x.jpg") no-repeat ;
+                /*background-image: url("01_s_2x.jpg");*/
+                background-size: 100% 100%;
+            }
+            #left {
+                width: 67%;
+                margin-right: 3%;
+            }
+
+            #right {
+                width: 30%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #right, #left {
+                width: 100%;
+            }
+            figure{
+                background: url("01_s.jpg") no-repeat ;
+                /*background-image: url("01_s.jpg");*/
+                background-size: 100% 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+        <header>
+            <h3>页头</h3>
+        </header>
+        <nav>
+            <h3>导航</h3>
+        </nav>
+        <figure></figure>
+        <section>
+            <aside id="left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, egestas quis luctus ut, rhoncus
+                    vitae risus. Integer venenatis libero sit amet sapien dictum, quis bibendum mi volutpat. Cras pretium quam
+                    quis magna facilisis, eget feugiat nisi lacinia.</p>
+            </aside>
+            <aside id="right">
+                <p>Donec dolor arcu, interdum sed turpis faucibus, placerat ultricies felis. Donec pulvinar gravida rhoncus.
+                    Suspendisse vestibulum est eget dolor lobortis.</p>
+            </aside>
+        </section>
+        <footer>
+            <h3>页脚</h3>
+        </footer>
+</body>
+</html>
