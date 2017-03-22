@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+}
+body{
+    perspective: 1000px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+}
+.book{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    transform: rotateX(30deg);
+}
+.preserve-3d{
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.book-page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #888888;
+    text-align: center;
+}
+.book-page-box{
+    transform-origin: 0 50%;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+@keyframes flipBook1{
+    0%{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotateY(-160deg);
+        -moz-transform: rotateY(-160deg);
+        -ms-transform: rotateY(-160deg);
+        -o-transform: rotateY(-160deg);
+        transform: rotateY(-160deg);
+    }
+    100%{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes flipBook2{
+    0%{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotateY(-150deg);
+        -moz-transform: rotateY(-150deg);
+        -ms-transform: rotateY(-150deg);
+        -o-transform: rotateY(-150deg);
+        transform: rotateY(-150deg);
+    }
+    100%{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes flipBook3{
+    0%{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotateY(-140deg);
+        -moz-transform: rotateY(-140deg);
+        -ms-transform: rotateY(-140deg);
+        -o-transform: rotateY(-140deg);
+        transform: rotateY(-140deg);
+    }
+    100%{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+}
+.book-page-1 .page-front{
+    background-color: pink;
+}
+.book-page-1 .page-back{
+    background-color: skyblue;
+}
+.book-page-1 .page-front p{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 100px;
+}
+.flip-animation-1{
+    animation: flipBook1 17s;
+}
+.book-page-2 .page-back , .book-page-2 .page-front{
+    background-color: skyblue;
+}
+.book-page-2 .page-front p{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 100px;
+}
+.flip-animation-2{
+    animation: flipBook2 13s 2s;
+}
+.book-page-3 .page-back, .book-page-3 .page-front{
+    background-color: skyblue;
+}
+.book-page-3 .page-front p{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 100px;
+}
+.flip-animation-3{
+    animation: flipBook3 10s 3s;
+}
+.book-page-4 .page-front p{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 100px;
+}
