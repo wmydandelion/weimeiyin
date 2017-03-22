@@ -1,0 +1,145 @@
+/* banner开始 */
+#banner{
+    height: 460px;
+    background: url(../img/banner-bg.png) repeat-x;
+}
+#banner .wrapper{
+    position: relative;
+}
+#banner .arrow{
+    width: 29px;
+    height: 50px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+#banner .prev{
+    background-position: 0 -14px;
+    left: 0;
+}
+#banner .next{
+    background-position: -29px -14px;
+    right: 0;
+}
+#imgs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 520px;
+    height: 280px;
+    margin-top: -140px;
+    margin-left: -280px;
+}
+#works{
+    margin: 0 auto;
+    height: 500px;
+}
+#clients{
+    margin: 0 auto;
+    height: 154px;
+}
+#footer{
+    margin: 0 auto;
+    height: 176px;
+    background: url(../img/footer-background.png) repeat-x;
+}
+#images{
+    position: absolute;
+    left: 240px;
+    top: 1140px;
+    right: 140px;
+    width: 1004px;
+    height: 406px;
+}
+#images img{
+    border: 0;
+    display: block;
+    float: left;
+}
+#works{
+    margin: 0 auto;
+    background-color: #e2e7ed;
+}
+#works span{
+    left: 240px;
+    top: 1024px;
+    position: absolute;
+    font-size: 30px;
+    color: #262626;
+}
+#clients span{
+    top: 1598px;
+    position: absolute;
+    left: 240px;
+    font-size: 30px;
+    color: #262626;
+}
+#news span{
+    top: 666px;
+    position: absolute;
+    font-size: 30px;
+    color: #262626;
+}
+#span1{
+    left: 336px;
+}
+#span2{
+    left: 660px;
+}
+#span3{
+    left: 996px;
+}
+#clients div{
+    width: 24px;
+    height: 40px;
+    top: 1652px;
+    overflow: hidden;
+    position: absolute;
+}
+#div4{
+    left: 240px;
+    background: url(../img/button-l-r.png) no-repeat 0 0;
+}
+#div5{
+    right: 240px;
+    background: url(../img/button-l-r.png) no-repeat -24px 0;
+}
+#footer{
+    position: relative;
+}
+#footer div{
+    top: 48px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+}
+#div6{
+    background: url(../img/icon.png) no-repeat 0 100px;
+    left: 862px;
+}
+#div7{
+    background: url(../img/icon.png) no-repeat 0 136px;
+    left: 872px;
+}
+#div8{
+    background: url(../img/icon.png) no-repeat 0 208px;
+    left: 882px;
+}
+#div9{
+    background: url(../img/icon.png) no-repeat 0 245px;
+    left: 892px;
+}
+#div10{
+    background: url(../img/icon.png) no-repeat 0 281px;
+    left: 902px;
+}
+#div11{
+    background: url(../img/icon.png) no-repeat 0 317px;
+    left: 912px;
+}
+#div12{
+    background: url(../img/icon.png) no-repeat 0 353px;
+    left: 922px;
+}

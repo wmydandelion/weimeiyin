@@ -1,0 +1,82 @@
+.carousel-container{
+    width: 520px;
+    height: 280px;
+    position: relative;
+}
+.carousel-imgs img{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.carousel-imgs img.selected{
+    display: block;
+}
+.carousel-tab{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.carousel-tab li{
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    color: #fff;
+    float: left;
+    margin-right: 5px;
+    list-style: none;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.carousel-tab li.selected {
+    background: orange;
+}
+.carousel-arrows{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.carousel-container span{
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    color: #fff;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.carousel-tab li.circle {
+    border-radius: 50%;
+}
+.carousel-arrows .carousel-arrows-prev,  .carousel-arrows .carousel-arrows-next{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.carousel-arrows .carousel-arrows-prev.bottom, .carousel-arrows .carousel-arrows-next.bottom{
+    margin-right: 2px;
+}
+.carousel-arrows.center{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 0;
+}
+.carousel-arrows .carousel-arrows-prev.center{
+    float: left;
+}
+.carousel-arrows .carousel-arrows-next.center{
+    float: right;
+}
+
+
+
