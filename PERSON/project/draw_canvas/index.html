@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: pink;
+        }
+        #canvas1{
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="canvas1" width="600" height="500">
+
+    </canvas><br>
+    <h1>**************请在白色的区域里面画画**************</h1>
+
+    <script>
+        var oCanvas = document.getElementById('canvas1');
+        var ctx = oCanvas.getContext('2d');
+
+        oCanvas.onmousedown = function(e){
+
+            ctx.moveTo(e.clientX, e.clientY);
+
+            oCanvas.onmousemove = function(e){
+                ctx.lineTo(e.clientX, e.clientY);
+                ctx.stroke();
+            }
+            oCanvas.onmouseup = function(){
+                oCanvas.onmousemove = null;
+                //oCanvas.onmousedown = null;
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>
