@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script  src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="formCtrl">
+        <form action="" novalidate>
+            firstName: <br/>
+            <input type="text" ng-model="user.firstName"/> <br/>
+            lastName: <br/>
+            <input type="text" ng-model="user.lastName"/> <br/>
+            <br/>
+            <br/>
+            <button ng-click="reset()">RESET</button>
+        </form>
+        <p>form = {{user}}</p>
+        <p>master = {{master}}</p>
+    </div>
+    <script>
+        var app = angular.module("myApp",[]);
+        app.controller("formCtrl",function($scope){
+            $scope.master = {firstName : "Jhon",lastName : "Doe"};
+            $scope.reset = function(){
+                $scope.user = angular.copy($scope.master);
+            };
+            $scope.reset();
+        });
+    </script>
+</body>
+</html>
