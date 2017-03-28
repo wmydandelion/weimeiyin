@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+@mixin border($color1:#ccc,$color2:#ddd){
+  border: 1px solid $color1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 5px 3px 5px $color2;
+  -moz-box-shadow: 4px hoff voff blur $color2;
+  box-shadow: 4px hoff voff blur $color2;
+}
+@mixin arrow($dir,$width,$color){
+  width: 0;
+  height: 0;
+  border-width: $width;
+  border-style: solid;
+    @if($dir == 'top'){
+      border-color:transparent transparent $color  transparent;
+    @if($dir == 'bottom'){
+      border-color:$color transparent transparent  transparent;
+    }@if($dir == 'left'){
+    border-color: transparent $color transparent transparent;
+  }
+    @if($dir == 'right'){
+      border-color: transparent transparent transparent $color;
+    }
+  }
+}

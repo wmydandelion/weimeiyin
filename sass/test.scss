@@ -1,0 +1,19 @@
+@import "common";
+$color : pink !default;
+$cls : nav;
+body{
+  background: $color;
+  #header{
+    background: yellowgreen;
+  }
+  .#{$cls}{
+    width: 200px;
+  }
+  %ff{
+    width: 100px;
+    height: 100px;
+  }
+  .bb{
+    @extend %ff;
+  }
+}

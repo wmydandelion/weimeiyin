@@ -1,0 +1,28 @@
+@import "common";
+$color : #ccc;
+$color : #000 !default;
+$cls: nav;
+body{
+  background: $color;
+  #header{
+    width: 200px;
+    color: $color;
+    .a{
+      color: #ffffff;
+    }
+  }
+  .#{$cls}{
+    width: 200px;
+    background: url('images/#{$cls}.jpg') 0 0;
+    padding: {
+      top: 10px;
+      bottom: 10px;
+    };
+    a{
+      color: #ff0000;
+      &.hover{
+        color: green;
+      }
+    }
+  }
+}
