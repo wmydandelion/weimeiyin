@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="" ng-init="names=[
+    {name:'wmy',country:'cn'},
+    {name:'wmy',country:'cn'},
+    {name:'wmy',country:'cn'},
+    {name:'wmy',country:'cn'},
+    {name:'wmy',country:'cn'},
+    {name:'wmy',country:'cn'},
+    {name:'wmy',country:'cn'}
+    ]">
+        <p>循环对象</p>
+        <table border="1px solid #000">
+            <td ng-repeat="x in names">
+                {{x.name+", "+x.country}}
+            </td>
+        </table>
+    </div>
+
+</body>
+</html>

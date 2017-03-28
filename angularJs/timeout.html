@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <p>两秒后显示信息:</p>
+        <h1>{{myHeader}}</h1>
+    </div>
+    <script>
+        var app = angular.module('myApp',[]);
+        app.controller("myCtrl",function($scope,$timeout){
+            $scope.myHeader = "Hello";
+            $timeout(function(){
+                $scope.myHeader = "cqoitugo";
+            },2000);
+        });
+    </script>
+</body>
+</html>

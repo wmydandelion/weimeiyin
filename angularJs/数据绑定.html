@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="" ng-init="quantity=1;price=5">
+        <h1>价格计算器</h1>
+        数量：<input type="number" ng-model="quantity"/>
+        价格：<input type="number" ng-model="cost"/>
+        <p><b>总价：</b>{{quantity*cost}}</p>
+    </div>
+</body>
+</html>

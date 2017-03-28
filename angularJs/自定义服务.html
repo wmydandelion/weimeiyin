@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp">
+        <h1>{{255|myFormat}}</h1>
+    </div>
+    <script>
+        var app = angular.module("myApp",[]);
+        app.service("hexafy",function(){
+            this.myFunc = function(x){
+                return x.toString(10);
+            }
+        });
+        app.filter("myFormat",["hexafy",function(hexafy){
+           return function(x){
+               return hexafy.myFunc(x);
+           }
+        }]);
+    </script>
+</body>
+</html>
