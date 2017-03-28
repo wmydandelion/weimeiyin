@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+        <script>
+            var str = "asdfsa sadfas sad asdf asf asdf asdf";
+            var arr = str.split(" ");
+            var newArr = [];
+            for(var i = 0; i<arr.length;i++){
+                var obj = {
+                    word : arr[i],
+                    length : arr[i].length
+                };
+                newArr.push(obj);
+            }
+            newArr.sort(function(a,b){
+                return a.length - b.length;
+            });
+            console.log("最短单词为：" + newArr[0].word);
+            console.log("最长单词为：" + newArr[arr.length - 1].word);
+        </script>
+</body>
+</html>

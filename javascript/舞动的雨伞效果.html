@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>雨伞舞动效果</title>
+</head>
+<body>
+    <canvas id="myCanve" width="1200" height="600"></canvas>
+    <div id="ta"></div>
+    <script src="jquery-1.12.4.js"></script>
+<script>
+    var ctx;
+    var everything = [];
+    var cwidth = 1200;
+    var cheight = 600;
+    var updowntime = 0;
+    var rotatetime = 0;
+    var my = 2;
+    var updown;
+    var rotateangle = 0;
+    function Umbrellas(sx,sy,fillStyle){
+        this.x = sx;
+        this.y = sy;
+        this.fillStyle = fillStyle;
+        this.draw = drawUmbrella;
+        this.moveit = moveumbrella;
+    }
+    function drawUmbrella(){
+        ctx.fillStyle = this.fillStyle;
+        ctx.beginPath();
+        ctx.arc(this.x,this.y,30,0,Math.PI,true);
+        ctx.closePath();
+        ctx.fill();
+        ctx.fillStyle = "blue";
+        ctx.fillRect(this.x - 1.5,this.y,1.5,40);
+        ctx.beginPath();
+        ctx.arc(this.x -5,this.y+40,4,Math.PI,Math.PI*2,true);
+        ctx.stroke();
+        ctx.closePath();
+    }
+    function moveumbrella(dx,dy){
+        this.x += dx;
+        this.y += dy;
+    }
+    function init(){
+        ctx = document.getElementById("myCanve").getContext("2d");
+        ctx.translate(200,300);
+        for(var i=0;i<10;i++){
+            var um = new Umbrellas(i*70,0,"rgb("+(30*i)+","+(255-30*i)+",255)");
+            everything.push(um);
+        }
+        updown = setInterval(change,100);
+        setTimeout(function(){
+           clearInterval(updown);
+            ctx.translate(300,0);
+            setInterval(rotate,100);
+        },10000);
+    }
+    function change(){
+        if(updowntime % 50 == 0){
+            my = - my;
+        }
+        clear(-200,-300);
+        updowntime ++;
+        for(var i= 0;i<everything.length;i++){
+            if(i%2==0){
+                everything[i].moveit(0,my);
+            }else{
+                everything[i].moveit(0.-my);
+            }
+            everything[i].draw();
+        }
+        $("#ta").html("坐标y："+everything[0].y + "______updowntime:"+updowntime);
+        if(updowntime==100){
+            clearInterval(updown);
+        }
+    }
+    function rotate(){
+        clear(-400,-300);
+        rotatetime ++ ;
+        for(var i = 0; i<everything.length; i++){
+            ctx.save();
+            ctx.rotate(Math.PI *(2/4+i/4));
+            ctx.translate(0,rotateangle);
+            everything[i].x = 0;
+            everything[i].y = 0;
+            everything[i].draw();
+            ctx.restore();
+        }
+        rotateangle ++;
+        $("#ta").html("角度："+rotateangle + "rotatetime:"+rotatetime);
+        if(rotateangle==70){
+            rotateangle = -rotateangle;
+        }
+    }
+    function clear(x,y){
+        ctx.clearRect(x,y,1200,600);
+    }
+    window.onload = function (){
+        init();
+    }
+</script>
+</body>
+</html>
