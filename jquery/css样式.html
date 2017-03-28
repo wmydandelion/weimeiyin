@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <p style="background-color:#ff0000">这是一个段落。</p>
+    <p style="background-color:#00ff00">这是一个段落。</p>
+    <p style="background-color:#0000ff">这是一个段落。</p>
+    <p>这是一个段落。</p>
+    <button>设置 p 元素的背景色</button>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").css("background-color","pink");
+            });
+        });
+
+    </script>
+</body>
+</html>

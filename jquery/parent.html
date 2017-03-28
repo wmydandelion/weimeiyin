@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .ancestor{
+            display: block;
+            border: 5px solid salmon;
+            color: #c3c3c3;
+            padding: 5px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ancestor">
+        <div>div
+        <ul>ul
+            <li>li
+            <span>span</span>
+            </li>
+        </ul>
+        </div>
+        <div>
+            <p>p
+            <span>span</span>
+            </p>
+        </div>
+    </div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("span").parent().css({"color":"blue","border":"2px solid red"});
+        });
+    </script>
+</body>
+</html>

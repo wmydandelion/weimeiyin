@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div .panel ,p.flip{
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            background: #5eeeee;
+            border: solid 4px #c3c3c3;
+        }
+        .panel{
+            height: 120px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="panel">
+        <p>领先的 Web 技术</p>
+        <p>你可以找到你所需要的所有网站建设教程</p>
+    </div>
+    <p class="flip">请点击这里</p>
+
+
+    <script type="text/javascript" src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $(".flip").click(function(){
+                $(".panel").slideUp("slow");
+            });
+
+        });
+    </script>
+</body>
+</html>

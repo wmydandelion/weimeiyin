@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border: 10px solid #c3c3c3;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <p>This is a paragraph in the div.</p>
+        <p>This is another paragraph in the div.</p>
+    </div>
+    <br/>
+    <button>删除div</button>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $("button").click(function(){
+           $("#div1").remove();
+        });
+    </script>
+</body>
+</html>

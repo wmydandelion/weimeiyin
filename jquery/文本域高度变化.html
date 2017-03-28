@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.12.4.js"></script>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="msg">
+            <div class="msg_caption">
+                <span class="bigger">向上(-)</span>
+                <span class="smaller">向下(+)</span>
+                </div>
+            <div>
+                <textarea name="" id="comment" cols="25" rows="12">
+                    本章将讲解 Bootstrap 支持的另一个特性，输入框组。输入框组扩展自 表单控件。
+                    使用输入框组，您可以很容易地向基于文本的输入框添加作为前缀和后缀的文本或按钮。
+                    通过向输入域添加前缀和后缀的内容，您可以向用户输入添加公共的元素。例如，您可以添加美元符号，
+                    或者在 Twitter 用户名前添加 @，或者应用程序接口所需要的其他公共的元素。
+                    本章将讲解 Bootstrap 支持的另一个特性，输入框组。输入框组扩展自 表单控件。
+                    使用输入框组，您可以很容易地向基于文本的输入框添加作为前缀和后缀的文本或按钮。
+                    通过向输入域添加前缀和后缀的内容，您可以向用户输入添加公共的元素。例如，您可以添加美元符号，
+                    或者在 Twitter 用户名前添加 @，或者应用程序接口所需要的其他公共的元素。
+                </textarea>
+            </div>
+        </div>
+    </form>
+    <script>
+        $(function(){
+            var $comment = $("#comment");
+
+            $(".bigger").click(function(){
+                if(!$comment.is(":animated")){
+                    if($comment.height()<500){
+                        $comment.animate({height:"+=50"},400);
+                    }
+                }
+            });
+
+            $(".smaller").click(function(){
+                if(!$comment.is(":animated")){
+                    if($comment.height()>50){
+                        $comment.animate({height:"-=50"},400);
+                    }
+                }
+            });
+
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.12.4.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>可折叠列表</legend>
+        <ul>
+            <li>列表1
+                <ul>
+                    <li>列表1.1</li>
+                    <li>列表1.2</li>
+                    <li>列表1.3</li>
+                </ul>
+            </li>
+            <li>列表2</li>
+            <li>列表3
+            <ul>
+                <li>列表3.1</li>
+                <li>列表3.2
+                <ul>
+                    <li>列表3.2.1</li>
+                    <li>列表3.2.2</li>
+                    <li>列表3.2.3
+
+                        <ul>
+                            <li>列表3.2.3.1</li>
+                            <li>列表3.2.3.2</li>
+                            <li>列表3.2.3.3</li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </li>
+            </ul>
+            </li>
+        </ul>
+    </fieldset>
+    <script>
+        $(function () {
+            $('li:has(ul)').click(function(event){
+                if(this == event.target){
+                    if($(this).children().is(':hidden')){
+                        $(this).css("list-style-image","url(home.png)").children().show();
+                    }
+                    else{
+                        $(this).css("list-style-image","url(full.png)").children().hide();
+                    }
+                }
+                return false;
+            }).css("cursor","pointer").click();
+            $('li:not(:has(ul))').css({
+                cursor : 'default',
+                'list-style-image' : 'none'
+            });
+        });
+    </script>
+</body>
+</html>

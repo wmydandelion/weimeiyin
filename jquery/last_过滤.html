@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>欢迎来到我的主页</h1>
+    <div><p>11111这是 div 中的一个段落</p></div>
+    <div><p>22222这是 div 中的一个段落</p></div>
+    <div><p>33333这是 div 中的一个段落</p></div>
+    <div><p>44444这是 div 中的一个段落</p></div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("div p").last().css("background","red");
+        });
+    </script>
+</body>
+</html>

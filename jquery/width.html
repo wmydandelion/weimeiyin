@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            height: 400px;
+            width: 400px;
+            padding: 20px;
+            margin: 10px;
+            border: 5px solid lightpink;
+            background-color: #003eff;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <br>
+    <button>显示 div 的尺寸</button>
+    <p>width() - 返回元素的宽度。</p>
+    <p>height() - 返回元素的高度。</p>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                var txt = "";
+                txt+="Width of div: " + $("#div1").width() + "</br>";
+                txt+="Height of div: " + $("#div1").height();
+                txt+="Width of div: " + $("#div1").innerWidth() + "</br>";
+                txt+="Height of div: " + $("#div1").innerHeight();
+                txt+="Width of div: " + $("#div1").outerWidth() + "</br>";
+                txt+="Height of div: " + $("#div1").outerHeight();
+                $("#div1").html(txt);
+            });
+        });
+    </script>
+</body>
+</html>

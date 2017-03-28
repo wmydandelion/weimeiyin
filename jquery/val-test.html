@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <p><input type="text" id="test" value="abcd"/></p>
+    <button>显示值</button>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                alert($("#test").val());
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.12.4.js"></script>
+</head>
+<body>
+    <div class="divFrame">
+        <div class="divTitle">
+            <input type="button" id="button1" class="btn" value="淡入按钮"/>
+            <input type="button" id="button2" class="btn" value="淡出按钮"/>
+        </div>
+        <div class="divContent">
+            <div class="divTip"></div>
+            <img src="2.jpg" alt=""/>
+        </div>
+    </div> 
+    <script>
+        $(function(){
+                    $img = $('img');
+                    $tip = $(".divTip");
+                    $('input:eq(0)').click(function(){
+                        $tip.html("");
+                        $img.fadeIn(3000,function(){
+                            $tip.html("淡入成功");
+                        });
+                    });
+
+                    $('input:eq(1)').click(function(){
+                        $tip.html("");
+                        $img.fadeOut(3000,function(){
+                            $tip.html("淡出成功");
+                        });
+                    });
+
+                });
+    </script>
+</body>
+</html>

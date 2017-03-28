@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <p id="test1">这是段落。</p>
+    <p id="test2">这是另一个段落。</p>
+    <p>input:<input type="text" id="test3" value="mickey mouse"/></p>
+    <button id="btn1">设置文本</button>
+    <button id="btn2">设置html</button>
+    <button id="btn3">设置值</button>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("#btn1").click(function(){
+                $("#test1").html("<h1>hello</h1>");
+            });
+            $("#btn2").click(function(){
+                $("#test2").text("hello");
+            });
+            $("#btn3").click(function(){
+                $("#test3").val("dolly duck");
+            });
+        });
+    </script>
+</body>
+</html>

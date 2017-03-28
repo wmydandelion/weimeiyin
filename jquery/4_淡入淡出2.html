@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            width: 80px;
+            height: 80px;
+
+        }
+        #div1{
+            background: red;
+        }
+        #div2{
+            background: greenyellow;
+        }
+        #div3{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <button>点击这里，使三个矩形淡出</button>
+    <script type="text/javascript" src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                $("#div1").fadeOut();
+                $("#div2").fadeOut("slow");
+                $("#div3").fadeOut(4000);
+            });
+        });
+    </script>
+</body>
+</html>

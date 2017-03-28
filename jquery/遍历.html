@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div class="descendants" style="width:500px;">div (当前元素)
+        <p>p (子)
+            <span>span (孙)</span>
+        </p>
+        <p class="1">p (child)
+            <span>span (孙)</span>
+        </p>
+    </div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("div").children("p.1").css({
+                "color" : "red",
+                "border" : "2px solid #3c3c3c"
+            });
+        });
+    </script>
+</body>
+</html>

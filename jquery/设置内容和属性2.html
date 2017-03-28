@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <p><a href="http://www.w3school.com.cn" id="w3s">W3C</a></p>
+    <button>改变 href 值</button>
+    <p>请把鼠标指针移动到链接上，或者点击该链接，来查看已经改变的 href 值。</p>
+
+
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+           $("button").click(function () {
+               $("#w3s").attr("href","http://www.w3school.com.cn/jquery");
+           });
+          
+        });
+    </script>
+</body>
+</html>

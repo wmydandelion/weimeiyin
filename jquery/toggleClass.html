@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .blue{
+            background-color: #0271ee;
+        }
+    </style>
+</head>
+<body>
+    <h1>标题 1</h1>
+    <h2>标题 2</h2>
+    <p>这是一个段落。</p>
+    <p>这是另一个段落。</p>
+    <button>切换 CSS 类</button>
+
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+               $("h1,h2,p").toggleClass("blue");
+            });
+
+        });
+    </script>
+</body>
+</html>

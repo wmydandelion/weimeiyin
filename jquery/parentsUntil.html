@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body class="ancestor">
+    <div style="width: 500px;">
+        <ul>
+            ul
+            <li>
+                li
+                <span>
+                    span
+
+                </span>
+            </li>
+        </ul>
+    </div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("span").parentsUntil("ul").css({
+                "color" : "red",
+                "border" : "3px solid green"
+            });
+        });
+    </script>
+</body>
+</html>

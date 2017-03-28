@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .siblings {
+            display: block;
+            border: 20px solid lime;
+            color: blue;
+            padding: 5px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body class="siblings">
+    <div>div
+        <p>p</p>
+        <span>span</span>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <p>p</p>
+    </div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function(){
+            $("h2").siblings("p").css({
+                "color":"red",
+                "border":"20px solid red"
+            });
+        });
+    </script>
+</body>
+</html>
