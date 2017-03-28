@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function People(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    People.prototype.showName = function(){
+        alert(this.name);
+    }
+    var p1 = new People("zhangsan",18);
+    var p2 = new People("lisi",20);
+    p1.showName();
+    p2.showName();
+
+//    obj.onclick = function(){
+//        window.setInterval(function(){
+//            this
+//        },1000);
+//    }
+</script>
+</body>
+</html>
