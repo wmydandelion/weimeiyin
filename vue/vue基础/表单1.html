@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <p>input 元素:</p>
+        <input type="text" v-model="message" placeholder="编辑我。。。。。。。。"/>
+        <p>消息是：{{message}}</p>
+        <p>textarea 元素:</p>
+        <p style="white-space: pre">{{message2}}</p>
+        <textarea name="" v-model="message2" placeholder="输入多行文本" id="" cols="30" rows="10"></textarea>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'aaa',
+                message2: 'bbbbb'
+            }
+        })
+    </script>
+</body>
+</html>

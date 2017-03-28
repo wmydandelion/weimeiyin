@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <button v-on:click="counter+=1">+1</button>
+        <p>这个按钮点击了{{counter}}次</p>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                counter: 0
+            }
+        })
+    </script>
+</body>
+</html>

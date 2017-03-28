@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <p>{{site}}</p>
+    </div>
+    <script>
+        var vm = new Vue({
+            el:"#app",
+            data:{
+                name: 'Google',
+                url: 'http://www.google.com',
+                site: 'google http://www.google.com'
+            },
+            computed:{
+                site:{
+                    get:function(){
+                        return this.name+' '+this.url
+                    },
+                    set:function(){
+                        var names = newValue.split(' ');
+                        this.name = names[0];
+                        this.url = names[names.length - 1];
+                    }
+                }
+            }
+        });
+
+        vm.site = "abc";
+        document.write('name:'+vm.name);
+        document.write('<br>');
+        document.write('url'+vm.url);
+    </script>
+</body>
+</html>

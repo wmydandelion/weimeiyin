@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+    <style>
+        .active{
+            width: 100px;
+            height: 100px;
+            background: lightpink;
+        }
+        .text-danger{
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div v-bind:class="classObject">
+    </div>
+</div>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            isActive : true,
+            error : null
+        },
+        computed:{
+            classObject:function(){
+                return {
+                    active :this.isActive && !this.error,
+                    'text-danger':this.error &&this.error.type ==='fatal'
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

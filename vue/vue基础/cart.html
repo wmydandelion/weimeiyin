@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <style>
+        body{
+            background-color: lightgrey;
+            margin: 250px 400px;
+            color: #ffff00;
+        }
+        table{
+            border: 3px solid orangered;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        thead tr td{
+            font-weight: 700;
+            color: #000;
+        }
+        td{
+            border: 3px solid orangered;
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+        button{
+            border-radius: 5px;
+            background-color: yellowgreen;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+        <table id="tb1">
+            <thead>
+            <tr>
+                <td></td>
+                <td>商品图片</td>
+                <td>商品信息</td>
+                <td>赠送</td>
+                <td>商品金额</td>
+                <td>商品数量</td>
+                <td>总金额</td>
+                <td>编辑</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="product in productList">
+                <td><input type="checkbox"></td>
+                <td><img :src="product.productImg" alt="" width="100"/></td>
+                <td>{{product.productName}}</td>
+                <td>
+
+                </td>
+                <td>{{product.productPrice}}</td>
+                <td><button>-</button><input type="text" :value="product.productQuentity"><button>+</button></td>
+                <td>{{product.productPrice*product.productQuentity}}</td>
+                <td><a href="#">删除</a></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <td colspan="6">
+                <input type="checkbox"/>全选
+            </td>
+            <td>总计:</td>
+            <td>
+                <button>结账</button>
+            </td>
+            </tfoot>
+        </table>
+        <script src="vue.min.js"></script>
+        <script src="../axios/dist/axios.min.js"></script>
+        <script>
+            var vm = new Vue({
+                el:'#tb1',
+                data:{
+                    productList:[]
+                },
+                computed:{},
+                methods:{},
+                mounted:function(){
+                    var _this = this;
+                    axios.get('cart.json').then(function(res){
+                        _this.productList = res.data.result.productList;
+                    });
+                }
+            });
+        </script>
+</body>
+</html>

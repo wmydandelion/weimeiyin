@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>v-on</title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <p>{{message}}</p>
+        <button v-on:click="reverseMessage">反</button>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                message:'RnsmOOl*&#nnn'
+            },
+            methods:{
+                reverseMessage:function(){
+                    this.message = this.message.split('').reverse().join('');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

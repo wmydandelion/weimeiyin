@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+    <style>
+        .active{
+            width: 100px;
+            height: 100px;
+            background: lightpink;
+        }
+        .text-danger{
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="static"
+                v-bind:class="{active:isActive,'text-danger':hasError}">
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                isActive : true,
+                hasError : true
+            }
+        });
+    </script>
+</body>
+</html>

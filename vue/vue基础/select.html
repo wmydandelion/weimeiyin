@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+    
+</head>
+<body>
+    <div id="app">
+        <select name="fruit" id="" v-model="selected">
+            <option value="">现在一个网站</option>
+            <option value="www.runoob.com">Runoob</option>
+            <option value="www.google.com">Google</option>
+
+        </select>
+            <div id="output">
+                选择的网站是;{{selected}}
+            </div>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                selected: ''
+            }
+        })
+    </script>
+
+</body>
+</html>

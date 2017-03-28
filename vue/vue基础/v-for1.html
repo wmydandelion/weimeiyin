@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+     <div id="app">
+         <ul>
+             <li v-for="value in object">
+                 {{value}}
+             </li>
+         </ul>
+     </div>
+     <script>
+         new Vue({
+             el:"#app",
+             data:{
+                 object: {
+                     name: "a",
+                     url:"http://www.runoob.com",
+                     slogan: "学的不仅仅是技术"
+                 }}
+         });
+     </script>
+</body>
+</html>

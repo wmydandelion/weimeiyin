@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+    <style>
+        .active{
+            width: 200px;
+            height: 200px;
+            background: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div v-bind:class="{active:isActive}"></div>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                isActive:false
+            }
+        });
+    </script>
+</body>
+</html>

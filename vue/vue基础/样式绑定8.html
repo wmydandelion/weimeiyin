@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <div v-bind:style="[baseStyles,overridingStyles]">MEDHJKLOIUWQC890@#T</div>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                baseStyles:{
+                    color:'red',
+                    fontSize: '100px'
+                },
+                overridingStyles:{
+                    'font-weight':'bold'
+                }
+            }
+        });
+    </script>
+</body>
+</html>
