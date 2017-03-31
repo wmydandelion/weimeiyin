@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+//        const foo = Object.freeze({});
+//        foo.prop = 123;
+var constantize = (obj) => {
+    Object.freeze(obj);
+    Object.keys(obj).forEach( (key, i) => {
+        if ( typeof obj[key] === 'object' ) {
+        constantize( obj[key] );
+    }
+});
+};
+    </script>
+</body>
+</html>
