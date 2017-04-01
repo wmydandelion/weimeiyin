@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        function* fibs(){
+            let a = 0;
+            let b = 1;
+            while(true){
+                yield a;
+                [a,b] = [b,a+b];
+            }
+        }
+        let [first,second,third,fifth,sixth] = fibs();
+        console.log(sixth);
+    </script>
+</body>
+</html>
