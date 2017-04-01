@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        //(typeof window !== "undefined" ?window :(typeof process === "object" && typeof require === "function" && typeof global === "object") ?global :this);
+        var getGlobal = function(){
+            if(typeof self !== 'undefined'){console.log(self);}
+            if (typeof window !== 'undefined') {console.log(window); }
+            if (typeof global !== 'undefined') {console.log(global); }
+            throw new Error('unable to locate global object');
+        }
+    </script>
+</body>
+</html>

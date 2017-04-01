@@ -8,13 +8,13 @@
     <script>
 //        const foo = Object.freeze({});
 //        foo.prop = 123;
-var constantize = (obj) => {
+    var constantize = (obj) => {
     Object.freeze(obj);
-    Object.keys(obj).forEach( (key, i) => {
-        if ( typeof obj[key] === 'object' ) {
-        constantize( obj[key] );
+    Object.keys(obj).forEach(key,i) => {
+        if(typeof obj[key] === "object"){
+            constantize(obj[key]);
+        }
     }
-});
 };
     </script>
 </body>
