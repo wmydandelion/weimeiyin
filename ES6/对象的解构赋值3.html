@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let obj = {
+        p:[
+          "hello",
+            {
+                y:"world"
+            }
+            ]
+    };
+    let {p:[x,{y}]} = obj;
+    console.log(x+y);
+</script>
+
+</body>
+</html>

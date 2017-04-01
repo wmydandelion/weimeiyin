@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var {x=3} = {};
+    console.log(x);
+    var {x1,y1 = 5} = {x1:1};
+    console.log(x1);
+    console.log(y1);
+    var {x2=3} = {x2:undefined};
+    console.log(x2);
+    var {x3=3} = {x3:null};
+    console.log(x3);
+    var {x4=3} = {x4:6};
+    console.log(x4);
+</script>
+
+</body>
+</html>

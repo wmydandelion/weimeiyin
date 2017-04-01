@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var node = {
+        loc :{
+            start: {
+                line:1,
+                column:5
+            }
+        }
+    };
+    var {loc:{start:{line}}} = node;
+    console.log(line);
+    console.log(loc);
+    console.log(column);
+</script>
+
+</body>
+</html>
