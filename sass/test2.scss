@@ -26,3 +26,7 @@ body{
     }
   }
 }
+.arrow{
+  @include arrow('left',50px,red);
+
+}

@@ -22,4 +22,11 @@ body {
       body .nav a.hover {
         color: green; }
 
+.arrow {
+  width: 0;
+  height: 0;
+  border-width: 50px;
+  border-style: solid;
+  border-color: transparent red transparent transparent; }
+
 /*# sourceMappingURL=test2.css.map */

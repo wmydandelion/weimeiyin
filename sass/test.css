@@ -10,9 +10,96 @@ body {
   body #header {
     background: yellowgreen; }
   body .nav {
-    width: 200px; }
+    width: 200px;
+    background: url("img/nav.jpg") 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px; }
   body .bb {
     width: 100px;
     height: 100px; }
+  body a {
+    color: #ff0000; }
+    body a.hover {
+      color: #00ff00; }
+
+.yy, .cc {
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 4px 5px 3px 5px yellow; }
+
+.cc {
+  width: 200px;
+  height: 200px; }
+
+.ee {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px; }
+
+.k {
+  width: 230px;
+  height: 1200px;
+  color: #cc0000;
+  background-color: #001a00; }
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent red transparent transparent; }
+
+.item-1 {
+  width: 20px; }
+
+.item-2 {
+  width: 40px; }
+
+.item-3 {
+  width: 60px; }
+
+.item-4 {
+  width: 80px; }
+
+.item-5 {
+  width: 100px; }
+
+.it-1 {
+  width: 10px; }
+
+.it-2 {
+  width: 20px; }
+
+.it-3 {
+  width: 30px; }
+
+.it-4 {
+  width: 40px; }
+
+.it-5 {
+  width: 50px; }
+
+.it-6 {
+  width: 60px; }
+
+.it-7 {
+  width: 70px; }
+
+.it-8 {
+  width: 80px; }
+
+.it-9 {
+  width: 90px; }
+
+.error {
+  background: url("img/error.jpg") 0 0; }
+
+.warning {
+  background: url("img/warning.jpg") 0 0; }
+
+.right {
+  background: url("img/right.jpg") 0 0; }
 
 /*# sourceMappingURL=test.css.map */

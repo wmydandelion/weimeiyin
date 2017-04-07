@@ -8,6 +8,11 @@ body{
   }
   .#{$cls}{
     width: 200px;
+    background: url("img/#{$cls}.jpg") 0 0;
+    padding: {
+      top: 10px;
+      bottom: 10px;
+    }
   }
   %ff{
     width: 100px;
@@ -15,5 +20,63 @@ body{
   }
   .bb{
     @extend %ff;
+  }
+  a{
+    color: #ff0000;
+    &.hover{
+      color: #00ff00;
+    }
+  }
+}
+
+@mixin border($color1,$color2){
+  border: 1px solid $color1;
+  border-radius: 5px;
+  box-shadow: 4px 5px 3px 5px $color2;
+}
+.yy{
+  @include border(red,yellow);
+}
+.cc{
+  width: 200px;
+  height: 200px;
+  @extend .yy;
+}
+@mixin css3($attr,$val){
+  -webkit-#{$attr}:$val;
+  -moz-#{$attr}:$val;
+  -ms-#{$attr}:$val;
+  -o-#{$attr}:$val;
+  #{$attr}:$val;
+}
+.ee{
+  @include css3(border-radius,10px);
+}
+@function add($a,$b){
+  @return $a+$b;
+}
+.k{
+  width: add(200px, 30px);
+  height: add(400px, 800px);
+  color: darken(red,10%);
+  background-color: darken(green,20%);
+}
+.arrow{
+  @include arrow('left',5px,red);
+}
+@for $i from 1 to 6{
+.item-#{$i}{
+  width: $i*20px;
+}
+}
+@for $i from 1 through 9{
+.it-#{$i}{
+  width: $i*10px;
+}
+}
+$icons:error warning right;
+@each  $j in $icons{
+  .#{$j}{
+    background: url('img/#{$j}.jpg') 0 0;
   }
 }
