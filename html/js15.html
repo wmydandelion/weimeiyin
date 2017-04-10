@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+    //排序法
+    var arr = [12,43,2323,455,23,5];
+    arr.sort(function (x,y) {
+        return x-y;
+    });
+    var max = arr[arr.length-1];
+    console.log(arr);
+    console.log(max);
+
+
+    //假设法
+    var arr1 = [12,43,2323,455,23,5];
+    var max1 = arr1[0];
+    for(var i =0;i<arr1.length;i++){
+        var cur = arr1[i];
+        if(cur>max1){
+            max1 = cur;
+        }
+    }
+    console.log(arr1);
+    console.log(max1);
+
+    var arr2 = [12,43,2323,455,23,5];
+    var max2 = Math.max.apply(null,arr2);
+    console.log(arr2);
+    console.log(max2);
+
+    var arr3 = [567,23,42,45,1,98];
+    var max3 = eval("Math.max("+arrr.toString()+")");
+    console.log(arr3);
+    console.log(max3);
+</script>
+</body>
+</html>

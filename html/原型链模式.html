@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        function CreateJs(name,age){
+            this.name = name;
+            this.age = age;
+        }
+        CreateJs.prototype.writeJs = function(){
+            console.log('my is '+ this.name +' can write js');
+        }
+        var zhangsan = new CreateJs('张三','18');
+        zhangsan.writeJs();
+        var lisi = new CreateJs('李四','20');
+        lisi.writeJs();
+        console.log(zhangsan.writeJs === lisi.writeJs);
+        console.log(zhangsan.writeJs == lisi.writeJs);
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function avgFn(){
+        var arr = Array.prototype.slice.apply(arguments);
+        arr.sort(function(x,y){
+            return x-y;
+        });
+        arr.shift();
+        arr.pop();
+        var arg = (eval(arr.join("+"))/arr.length).toFixed(2);
+        return arr;
+    }
+    var arr = avgFn(68,97,97,91,99.1,89.5,98.23);
+    console.log(arr);
+
+    function avgFn2(){
+        var arr = [].sort.call(arguments, function (x,y) {
+            return x-y;
+        });
+        [].shift.call(arguments);
+        [].pop.call(arguments);
+        return (eval([].join.call(arguments,"+"))/arguments.length).toFixed(2);
+    }
+    var arr2 = avgFn(68,97,97,91,99.1,89.5,98.23);
+    console.log(arr2);
+</script>
+</body>
+</html>

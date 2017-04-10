@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul id="ul"></ul>
+<script>
+    var oUl = document.getElementById('ul');
+    var frg = document.createDocumentFragment();
+    var oLi = document.createElement("li");
+
+    oLi.innerHTML ="hthll";
+    frg.appendChild(oLi);
+    oUl.appendChild(frg);
+    frg = null;
+</script>
+</body>
+</html>

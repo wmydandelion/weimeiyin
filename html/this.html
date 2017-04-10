@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="div">div</div>
+    <script>
+        function fn(){
+            console.log(this);
+        }
+        var obj = {
+            name : "lisi",
+            writeJs : fn
+        };
+        obj.writeJs();
+
+        var fn = obj.writeJs;
+        fn();
+
+        var sum = function () {
+           fn();
+        }
+        sum();
+
+        (function(){
+            fn();
+        })();
+
+        document.getElementById('div').onclick = fn;
+        document.getElementById('div').onclick = function() {
+            fn();
+        }
+    </script>
+</body>
+</html>

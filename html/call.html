@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var array1 = [12,'foo',{name : "joe"},-2345];
+    var array2 = ['doe',555,array2];
+    console.log(Array.prototype.push.apply(array1,array2));
+    var numbers = [5,485,120,-455];
+    var maxInNumber = Math.max.apply(Math,number),
+            maxInNumber1 = Math.max.call(Math,5,485,120,-455);
+    console.log(maxInNumber);
+    console.log(maxInNumber1);
+    console.log(Object.prototype.toString.call(obj) == '[object Array]');
+
+
+</script>
+</body>
+</html>
