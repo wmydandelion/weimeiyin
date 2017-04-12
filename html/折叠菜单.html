@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #menu h3{
+            background: #000;
+            color: #fff;
+            text-align: center;
+            width: 200px;
+        }
+        .sub-menu{
+            background: #eee;
+            color: #000;
+            width: 200px;
+            text-align: center;
+        }
+        /*.sub-menu li{*/
+           /*display: none;*/
+        /*}*/
+    </style>
+
+</head>
+<body>
+    <ul id="menu">
+
+        <li class="main-menu"></li>
+        <h3>管理区</h3>
+        <ul class="sub-menu">
+            <li><a href="#">001</a></li>
+            <li><a href="#">002</a><li>
+            <li><a href="#">003</a></li>
+        </ul>
+
+        <li class="main-menu"></li>
+        <h3>交流区</h3>
+        <ul class="sub-menu">
+            <li><a href="#">001</a></li>
+            <li><a href="#">002</a><li>
+            <li><a href="#">003</a></li>
+        </ul>
+
+    </ul>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+       $(function () {
+            $("#menu").click(function () {
+                $(".sub-menu").toggle(1000);
+            });
+       });
+//       $(function(){
+//           $("button").click(function(){
+//               $("p").toggle(20000);
+//           });
+
+    </script>
+</body>
+</html>

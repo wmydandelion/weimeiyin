@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    //typeof
+    console.log(typeof typeof typeof function(){});
+    //instanceof
+    console.log(1 instanceof Number);
+    console.log(new Number(1) instanceof Number);
+    //constructor
+    var arr = [];
+    console.log(arr.constructor===Array);
+    //Object.prototype.toString.call()
+    console.log(typeof 12);
+
+    function dd (callbak){
+
+        callbak && callbak();
+
+    }
+
+    var obj = [12,32];
+
+    console.log(obj instanceof Array);
+    console.log(Object.prototype.toString.call([]));
+    console.log(Object.prototype.toString.call({}));
+    console.log(Object.prototype.toString.call(1));
+    console.log(Object.prototype.toString.call("sff"));
+    console.log(Object.prototype.toString.call(new Date));
+    console.log(Object.prototype.toString.call(/\d/));
+    console.log(Object.prototype.toString.call(null));
+    console.log(Object.prototype.toString.call(undefined));
+    console.log();
+    console.log();
+    console.log();
+    console.log();
+
+</script>
+</body>
+</html>
