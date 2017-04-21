@@ -1,0 +1,130 @@
+body{
+    background: lightblue;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+}
+.left,.right{
+    flex-grow: 1;
+}
+.wrapper{
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.img{
+    background-size: contain;
+    overflow: hidden;
+    width: 750px;
+    height: 500px;
+    margin-left: 30px;
+}
+.img img{
+
+}
+.erweima{
+    bottom: 0;
+}
+.right span{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    display: block;
+    text-align: center;
+    float: right;
+}
+.right span a{
+    color: #fff;
+    font-size: 100px;
+    text-decoration: none;
+    line-height: 100px;
+}
+.right span a:hover{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: yellowgreen;
+    color: #fff;
+    font-size: 100px;
+    text-decoration: none;
+}
+.list{
+    float: left;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.erweima{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.erweima img{
+    width: 100px;
+    height: 100px;
+}
+.right span{
+    float: right;
+}
+.list li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: orangered;
+    text-align: center;
+    color: #fffccc;
+    font-size: 2rem;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.list li:hover{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: greenyellow;
+    text-align: center;
+    color: #fffccc;
+    font-size: 2rem;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.content{
+    width: 400px;
+    margin-top: 40px;
+    font-size: 2rem;
+    text-align: right;
+}
+.left h3{
+    font-size: 3rem;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.img{
+    box-shadow: 0px -30px 0px 0px #fff,
+    -30px 0px 0px 0px #fff,
+    30px 0px 0px 0px #fff,
+    0px 30px 0px 0px #fff;
+    border-radius: 50px;
+}
+.erweima{
+    font-size: 2rem;
+    float: left;
+    margin-top: 170px;
+}
