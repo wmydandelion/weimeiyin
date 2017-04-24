@@ -23,13 +23,15 @@ function BoyWalk() {
         var data = getValue('.a_background_middle');
         return data.top + data.height / 2;
     }();
+
     var $boy = $("#boy");
     var boyWidth = $boy.width();
     var boyHeight = $boy.height();
-    // 修正小男孩的正确位置
+
+    // 设置下高度    
     $boy.css({
         top: pathY - boyHeight + 25
-    });
+    })
 
     // 暂停走路
     function pauseWalk() {

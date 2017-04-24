@@ -27,53 +27,7 @@
     background-image: url("http://img.mukewang.com/55ade1c30001db5d14410138.png");
     background-size: 100% 100%;
 }
-/*天空
 
-
-/*雪花*/
-
-#snowflake {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-}
-
-.snowRoll {
-    position: absolute;
-    opacity: 0;
-    -webkit-animation-name: mysnow;
-    -webkit-animation-duration: 20s;
-    -moz-animation-name: mysnow;
-    -moz-animation-duration: 20s;
-    height: 80px;
-}
-
-@-webkit-keyframes mysnow {
-    0% {
-        bottom: 100%;
-    }
-    50% {
-        -webkit-transform: rotate(1080deg);
-    }
-    100% {
-        -webkit-transform: rotate(0deg) translate3d(50px, 50px, 50px);
-    }
-}
-
-@-moz-keyframes mysnow {
-    0% {
-        bottom: 100%;
-    }
-    50% {
-        -moz-transform: rotate(1080deg);
-    }
-    100% {
-        -moz-transform: rotate(0deg) translate3d(50px, 50px, 50px);
-    }
-}
 /*小女孩*/
 
 .girl {
@@ -343,7 +297,6 @@
     }
 }
 
-
 /*文字效果*/
 
 .logo {
@@ -414,25 +367,27 @@
 }
 
 @-webkit-keyframes logoshake {
+    /* 补充代码使logo产生左右晃动效果 */
     0%, 100% {
-        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
     }
     10%,
     30%,
     50%,
     70%,
     90% {
-        -webkit-transform: translate3d(-5px, 0, 0);
+        -moz-transform: translate3d(-5px, 0, 0);
     }
     20%,
     40%,
     60%,
     80% {
-        -webkit-transform: translate3d(10px, 0, 0);
+        -moz-transform: translate3d(10px, 0, 0);
     }
 }
 
 @-moz-keyframes logoshake {
+    /* 补充代码使logo产生左右晃动效果 */
     0%, 100% {
         -moz-transform: translate3d(0, 0, 0);
     }
