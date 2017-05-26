@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+<head>
+    <title>专业工作管理平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body style="background: papayawhip;">
+<div class="container">
+    <p style="text-align: center;font-size: larger;color: orangered;text-shadow: grey 20px 10px 10px;">专业工作管理平台</p>
+    <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="#">首页</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">任务信息<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a id="action-1" href="#">我的任务</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">任务信息</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">监考信息<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a id="action-2" href="#">我的监考</a></li>
+                <li class="divider"></li>
+                <li><a href="#">监考信息</a></li>
+            </ul>
+        </li>
+
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">工作管理<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a id="action-3" href="#">监考管理</a></li>
+                <li class="divider"></li>
+                <li><a href="#">任务信息</a></li>
+                <li class="divider"></li>
+                <li><a href="#">用户管理</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">系统管理<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a id="action-4" href="#">系统设置</a></li>
+                <li class="divider"></li>
+                <li><a href="#">维护日志</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <div id="regist">
+         <div style="padding: 100px 100px 10px;">
+         <form class="bs-example bs-example-form" role="form">
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon">用户名</span>
+                <input type="text" class="form-control" placeholder="输入用户名">
+            </div><br>
+             <div class="input-group input-group-lg">
+                 <span class="input-group-addon">密码</span>
+                 <input type="text" class="form-control" placeholder="输入密码">
+             </div><br>
+             <div class="input-group input-group-lg">
+                 <span class="input-group-addon">确认密码</span>
+                 <input type="text" class="form-control" placeholder="再次输入密码">
+             </div><br>
+             <div class="input-group input-group-lg">
+                 <span class="input-group-addon">员工号</span>
+                 <input type="text" class="form-control" placeholder="输入员工号">
+             </div><br>
+             <div class="input-group input-group-lg">
+                 <span class="input-group-addon">手机号</span>
+                 <input type="text" class="form-control" placeholder="输入手机号">
+             </div><br>
+             <div class="input-group input-group-lg">
+                 <span class="input-group-addon">职称</span>
+                 <input type="text" class="form-control" placeholder="输入职称">
+             </div><br>
+             <div class="input-group input-group-lg">
+                 <span class="input-group-addon">简介</span>
+                 <input type="text" class="form-control" placeholder="输入简介">
+             </div><br>
+             <a href="#regist">
+                 <input class="btn btn-warning btn-lg" type="submit" value="注册">
+             </a>
+            <br/>
+            <p>已经有账号？登陆吧，点击我哟。</p>
+             <a href="#login">
+                 <input class="btn btn-primary btn-lg" type="submit" value="登陆">
+             </a>
+        </form>
+    </div>
+</div>
+
+    <div id="login">
+        <div style="padding: 100px 100px 10px;">
+            <form class="bs-example bs-example-form" role="form">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">用户名</span>
+                    <input type="text" class="form-control" placeholder="输入用户名">
+                </div><br>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">密码</span>
+                    <input type="text" class="form-control" placeholder="输入密码">
+                </div><br>
+                <a href="#login">
+                    <input class="btn btn-primary btn-lg" type="submit" value="登陆">
+                </a>
+                <br/>
+                <p>还没账号？注册一个吧，点击我哟。</p>
+                <a href="#regist">
+                    <input class="btn btn-warning btn-lg" type="submit" value="注册">
+                </a>
+            </form>
+        </div>
+    </div>
+
+    <div id="mytask" class="container" style="text-align: center;">
+        <h3>我的任务</h3>
+        <table frame="box" border="6" width="100%" style="text-align: center;" class="table">
+            <thead>
+                <tr bgcolor="#d3d3d3">
+                    <th>任务编号</th>
+                    <th>任务类型</th>
+                    <th>任务名称</th>
+                    <th>任务描述</th>
+                    <th>截止时间</th>
+                    <th>结果</th>
+                </tr>
+            </thead>
+            <tbody  BGCOLOR="#fffff0">
+                <tr>
+                    <td>1</td>
+                    <td>监考1</td>
+                    <td>监督学生考试</td>
+                    <td>监督</td>
+                    <td>13:40</td>
+                    <td>
+                        <button class="btn btn-primary">提交</button>
+                       &nbsp;  &nbsp;
+                        <button class="btn btn-danger">取消</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>监考2</td>
+                    <td>监督学生考试</td>
+                    <td>监督</td>
+                    <td>13:40</td>
+                    <td>
+                        <button class="btn btn-primary">提交</button>
+                        &nbsp;  &nbsp;
+                        <button class="btn btn-danger">取消</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>监考3</td>
+                    <td>监督学生考试</td>
+                    <td>监督</td>
+                    <td>13:40</td>
+                    <td>
+                        <button class="btn btn-primary">提交</button>
+                        &nbsp;  &nbsp;
+                        <button class="btn btn-danger">取消</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot bgcolor="#d3d3d3">
+            <tr>
+                <td colspan="6">我的任务@2017</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="taskmsg"  style="text-align: center;">
+        <h3>任务信息</h3>
+        <table frame="box" border="6" style="text-align: center;" class="table table-bordered">
+            <thead>
+            <tr bgcolor="#d3d3d3">
+                <th>任务编号</th>
+                <th>任务类型</th>
+                <th>任务名称</th>
+                <th>任务描述</th>
+                <th>截止时间</th>
+            </tr>
+            </thead>
+            <tbody  BGCOLOR="#fffff0">
+            <tr>
+                <td>1</td>
+                <td>监考1</td>
+                <td>监督学生考试</td>
+                <td>监督</td>
+                <td>13:40</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>监考2</td>
+                <td>监督学生考试</td>
+                <td>监督</td>
+                <td>13:40</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>监考3</td>
+                <td>监督学生考试</td>
+                <td>监督</td>
+                <td>13:40</td>
+
+            </tr>
+            </tbody>
+            <tfoot bgcolor="#d3d3d3">
+            <tr>
+                <td colspan="6">任务信息@2017</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div id="invigilate" style="text-align: center;">
+        <h3>我的监考</h3>
+        <table class="table table-bordered" style="text-align: center;">
+            <thead bgcolor="lightgrey">
+            <tr>
+                <th>编号</th>
+                <th>监考时间</th>
+                <th>监考地点</th>
+                <th>监考课程</th>
+                <th>确认能否参加监考</th>
+            </tr>
+            </thead>
+            <tbody bgcolor="lightyellow">
+            <tr>
+                <td>1</td>
+                <td>15:15</td>
+                <td>丹青楼</td>
+                <td>数据库</td>
+                <td>
+                    <button class="btn btn-primary">确定</button>
+                    &nbsp;&nbsp;
+                    <button class="btn btn-danger">取消</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>15:15</td>
+                <td>丹青楼</td>
+                <td>数据库</td>
+                <td>
+                    <button class="btn btn-primary">确定</button>
+                    &nbsp;&nbsp;
+                    <button class="btn btn-danger">取消</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>15:15</td>
+                <td>丹青楼</td>
+                <td>数据库</td>
+                <td>
+                    <button class="btn btn-primary">确定</button>
+                    &nbsp;&nbsp;
+                    <button class="btn btn-danger">取消</button>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot bgcolor="lightgrey">
+            <tr>
+                <td colspan="5">我的监考@2017</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div id="invigilatemsg" style="text-align: center;">
+        <h3>监考信息</h3>
+        <table class="table table-bordered" style="text-align: center;">
+            <thead bgcolor="lightgrey">
+            <tr>
+                <th>编号</th>
+                <th>监考时间</th>
+                <th>监考地点</th>
+                <th>监考课程</th>
+            </tr>
+            </thead>
+            <tbody bgcolor="lightyellow">
+            <tr>
+                <td>1</td>
+                <td>15:15</td>
+                <td>丹青楼</td>
+                <td>数据库</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>15:15</td>
+                <td>丹青楼</td>
+                <td>数据库</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>15:15</td>
+                <td>丹青楼</td>
+                <td>数据库</td>
+
+            </tr>
+            </tbody>
+            <tfoot bgcolor="lightgrey">
+            <tr>
+                <td colspan="5">监考信息@2017</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div id="invigilategl" style="text-align: left;" class="form-group">
+        <h3>监考管理</h3>
+        <form action="">
+            课程名：<input type="text"/><br/><br/>
+            时间：<input type="datetime-local"/><br/><br/>
+            地点：<select>
+                        <option value="1">丹青楼</option>
+                        <option value="2">成栋楼</option>
+                        <option value="3">锦秀楼</option>
+                        <option value="4">机房</option>
+                </select>
+            <br/><br/>
+            人数：<input type="number" value="1"/><br/><br/>
+            人员选择：<div class="checkbox">
+                <label>
+                    <input type="checkbox" checked>111
+                </label>
+                <label>
+                    <input type="checkbox">111
+                </label>
+                <label>
+                    <input type="checkbox">111
+                </label>
+                <label>
+                    <input type="checkbox">111
+                </label>
+                <label>
+                    <input type="checkbox">111
+                </label>
+            </div>
+            <button type="button" class="btn btn-primary">确定所选的人员名单</button>
+            <br/><br/>
+            文件上传：<input type="file"/>
+            <br/>
+            <input class="btn btn-primary" type="submit"/>
+        </form>
+
+    </div>
+
+    <div class="taskgl" style="text-align: center;">
+        <div style="padding: 100px 100px 10px;">
+            <h3>任务管理</h3>
+            <form class="bs-example bs-example-form" role="form">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">任务类型</span>
+                    <input type="text" class="form-control">
+                </div><br>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">任务名称</span>
+                    <input type="text" class="form-control" placeholder="输入任务名称">
+                </div><br>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">描述任务</span>
+                    <input type="text" class="form-control" placeholder="请用文字描述任务">
+                </div><br>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">创建时间</span>
+                    <input type="datetime-local" class="form-control">
+                </div><br>
+                    <button type="button" class="btn btn-primary btn-lg">提交</button>
+                <br>
+            </form>
+            </div></div>
+    <div class="usergl" style="text-align: center;">
+        <h3>管理用户</h3>
+
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
