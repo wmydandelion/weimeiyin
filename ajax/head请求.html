@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <p id="p1">The getAllResponseHeaders() function returns the header information of a resource, like length, server-type, content-type, last-modified, etc.</p>
+    <button onclick="loadXMLDoc('/try/ajax/ajax_info.txt')">Get header information</button>
+
+    <script>
+        function loadXMLDoc(url){
+            var XMLHttpRequest;
+            if(window.XMLHttpRequest){
+                xmlhttp=new XMLHttpRequest();
+            }else{
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function(){
+                if(xmlhttp.readyState == 4&& xmlhttp.status == 200){
+                    document.getElementById("p1").innerHTML = xmlhttp.getAllResponseHeaders();
+
+                }
+            }
+                xmlhttp.open("GET",url,true);
+            xmlhtpp.send();
+        }
+    </script>
+</body>
+</html>
