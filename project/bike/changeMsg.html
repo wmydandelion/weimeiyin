@@ -2,9 +2,50 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>修改信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!--<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!--<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>-->
+    <!--<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .footer{
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
+<div data-role="page" id="pageone">
+    <div data-role="header">
+        <h1>修改信息</h1>
+        <div class="ui-grid-a">
+            <div class="ui-block-a"><a href="index.html" class="ui-btn ui-icon-carat-l ui-btn-icon-left ui-corner-all">返回</a></div>
+            <div class="ui-block-b"><a href="help.html" class="ui-btn ui-icon-info ui-btn-icon-right ui-corner-all">帮助</a></div>
+        </div>
+    </div>
+    <div data-role="main" class="ui-content">
+            修改个人头像：<input type="file" id="inputfile">
+            用户名：<input type="text"/>
+            修改密码：<input type="password" required/>
+            再次输入密码：<input type="password" required/>
+            性别：<label><input name="Fruit" type="radio" value="" />男</label>
+            <label><input name="Fruit" type="radio" value="" />女</label>
+            <input type="submit" data-inline="true" value="提交">
+            <input type="reset" data-inline="true" data-clear-btn="true" value="重置"/>
+    </div>
+    <div class="footer" data-role="footer">
+        <h1>&copy;修改信息</h1>
+    </div>
+    </div>
 </body>
 </html>

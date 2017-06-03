@@ -2,9 +2,65 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>个人中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        div .ui-grid-solo{
+            margin: 0 auto;
+            text-align: center;
+        }
+        .footer{
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-
+<div data-role="page">
+    <div data-role="header">
+        <h1>个人中心</h1>
+        <div class="ui-grid-b">
+            <div class="ui-block-a"><a href="index.html" class="ui-btn ui-icon-carat-l ui-btn-icon-left ui-corner-all">返回</a></div>
+            <div class="ui-block-b"><span><img  style=" width: 100px; height: 100px; display: inline-block;" src="self.jpg" alt="个人头像"/></span></div>
+            <div class="ui-block-c"><a href="help.html" class="ui-btn ui-icon-info ui-btn-icon-right ui-corner-all">帮助</a></div>
+        </div>
+        <div class="ui-grid-solo">
+            <div class="ui-block-a">
+                <a href="#" class="ui-btn ui-corner-all ui-shadow">18800467509</a>
+            </div>
+        </div>
+        <div class="ui-grid-solo">
+            <div class="ui-block-a">
+                <a href="#" class="ui-btn ui-corner-all ui-shadow">信誉度100%</a>
+            </div>
+        </div>
+    </div>
+    <div data-role="main" class="ui-content">
+        <ul data-role="listview">
+            <li data-role="list-divider"></li>
+            <li><a href="Mywallet.html">我的钱包</a></li>
+            <li data-role="list-divider"></li>
+            <li data-role="list-divider"></li>
+            <li><a href="changeMsg.html">修改信息</a></li>
+            <li data-role="list-divider"></li>
+            <li data-role="list-divider"></li>
+            <li><a href="rentRecord.html">租车记录</a></li>
+            <li data-role="list-divider"></li>
+            <li data-role="list-divider"></li>
+        </ul>
+    </div>
+    <a href="login.html" class="ui-btn ui-corner-all ui-shadow">退出登录</a>
+    <div class="footer" data-role="footer">
+        <h1>&copy;个人中心</h1>
+    </div>
+</div>
 </body>
 </html>
