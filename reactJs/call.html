@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        function fn(a,b){
+            console.log(this);
+            console.log(a+b);
+        }
+        var obj = {
+            name : "wfr",
+            age : 18
+        };
+//        fn();
+//        fn.call(obj,3,4);
+        //        fn.apply(obj,[3,4]);
+        fn.bind(obj,3,4)();
+    </script>
+</body>
+</html>

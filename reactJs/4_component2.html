@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: #fddfdf;
+            color: #4356ef;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="react-15.3.1/build/react.js"></script>
+    <script src="react-15.3.1/build/react-dom.js"></script>
+    <script src="react-15.3.1/browser.js"></script>
+    <script type="text/babel">
+        var SubMessagebox = React.createClass({
+            render : function(){
+                return (
+                        <div>1233457jjkswrtr</div>
+                );
+            }
+        });
+        var SubMessagebox2 = React.createClass({
+            render : function(){
+                return (
+                  <div>09fsjkdj1234</div>
+                );
+            }
+        });
+        var Messagebox = React.createClass({
+            render : function(){
+                return  (
+                        <div>
+                        <SubMessagebox/>
+                        <SubMessagebox2/>
+                        <div>a00000000000000</div>
+                        </div>
+                );
+            }
+        });
+
+        ReactDOM.render(
+                <div>
+                    <Messagebox/>
+                    <Messagebox/>
+                </div>,
+                document.getElementById("app")
+        );
+    </script>
+</body>
+</html>
