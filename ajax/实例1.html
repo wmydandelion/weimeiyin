@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h3>在输入框尝试输入字母a</h3>
+<form action="">
+    输入姓名：<input type="text" id="txt1" onkeyup="showHint(this.value)"/>
+    <p>提示信息：<span id="txtHint"></span></p>
+</form>
+<script>
+    function showHint(str){
+        var xmlhttp;
+        if(str.length == 0){
+            document.getElementById("txtHint").innerHTML = "";
+            return;
+        }
+        if(window.XMLHttpRequest){
+            xmlhttp = new XMLHttpRequst();
+        }
+        else
+        {
+            // IE6, IE5 浏览器执行代码
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("GET","gethint.php?q="+str,true);
+        xmlhttp.send();
+    }
+</script>
+</body>
+</html>

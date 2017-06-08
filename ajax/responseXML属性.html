@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h2>收藏我的CD</h2>
+<div id="myDiv"></div>
+<button onclick="loadXMLDoc()">获取我的CD</button>
+<script>
+    function loadXMLDoc(){
+        var xmlhttp;
+        var txt, x,i;
+        if(window.XMLHttpRequest){
+            xmlhttp = new XMLHttpRequest();
+        }else{
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            if(xmlhttp.readyState==4 && xmlhttp.status==200){
+                xmlDoc = xmlhttp.responseXML;
+                txt = "";
+                x = xmlDoc.getElementsByTagName("ARTIST");
+                for(i = 0;i< x.length;i++){
+                    txt = txt + x[i].childNodes[0].nodeValue + "</br>";
+                }
+                document.getElementById("myDiv").innerHTML = txt ;
+            }
+        }
+        xmlhttp.open("GET","catalog.xml",true);
+        xmlhttp.send();
+    }
+</script>
+</body>
+</html>
