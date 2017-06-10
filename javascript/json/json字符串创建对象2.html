@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h2>通过 JSON 字符串来创建对象</h2>
+<p>
+    first name: <span id="fname"></span><br/>
+    last Name: <span id="lname"></span><br />
+</p>
+<script>
+    var txt = '{"employee":[' +
+            '{"firstName":"Bill1","lastName":"Gates1" },' +
+            '{"firstName":"Bill2","lastName":"Gates2" },' +
+            '{"firstName":"Bill3","lastName":"Gates3" }]}';
+    var obj = eval("("+txt+")");
+    document.getElementById("fname").innerHTML = obj.employee[0].firstName;
+    document.getElementById("lname").innerHTML = obj.employee[0].lastName;
+    document.getElementById("fname").innerHTML = obj.employee[1].firstName;
+    document.getElementById("lname").innerHTML = obj.employee[1].lastName;
+    document.getElementById("fname").innerHTML = obj.employee[2].firstName;
+    document.getElementById("lname").innerHTML = obj.employee[2].lastName;
+</script>
+
+
+<!--eval() 函数可编译并执行任何 JavaScript 代码。这隐藏了一个潜在的安全问题。-->
+<!--使用 JSON 解析器将 JSON 转换为 JavaScript 对象是更安全的做法。JSON 解析器只能识别 JSON 文本，而不会编译脚本。-->
+<!--在浏览器中，这提供了原生的 JSON 支持，而且 JSON 解析器的速度更快。-->
+<!--较新的浏览器和最新的 ECMAScript (JavaScript) 标准中均包含了原生的对 JSON 的支持。-->
+
+
+</body>
+</html>
