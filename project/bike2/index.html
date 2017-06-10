@@ -2,37 +2,65 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>主页</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>首页</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <style>
-        html,body{
-            height: 100%;
-            width: 100%;
-        }
-        .footer{
-            bottom: 0;
-            position: absolute;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<div data-role="page">
-    <div data-role="header" data-theme="b">
-        <h1>主页</h1>
-        <div class="ui-grid-solo">
-            <div class="ui-block-a"><a href="index.html" class="ui-btn  ui-btn-left ui-icon-carat-l ui-btn-icon-left ui-corner-all">返回</a></div>
+    <div class="container">
+
+        <div id="map">
         </div>
-
+        <div class="content">
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                <div class="up button display"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+                <div class="down button"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+                <div class="scan"></div>
+            <a href="complain.html"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="sport.html"><i class="fa fa-bicycle" aria-hidden="true"></i></a>
+                <i class="fa fa-clock-o" aria-hidden="true"><s class="hot"></s></i>
+            <a href="userCenter.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </div>
+        <div class="menu">
+            <div class="box">
+                <div class="b-img">
+                    <img src="img/1.jpg" alt="" class="f-img"/>
+                    <img src="img/2.jpg" alt=""/>
+                    <img src="img/3.jpg" alt=""/>
+                </div>
+                <span class="b-money">￥100/小时</span>
+                <span class="b-num">空闲XX辆</span>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <ul class="type">
+                <span class="t-span">车型：</span>
+                <li class="select">单人车</li>
+                <li>双人车</li>
+                <li>三人车</li>
+            </ul>
+            <ul class="time">
+                <span class="t-span">取车时间：</span>
+                <li>30分内</li>
+                <li>60分内</li>
+                <li>90分内</li>
+                <li>120分内</li>
+                <li>150分内</li>
+                <li>180分内</li>
+            </ul>
+            <ul class="amount">
+                <span class="t-span">数量：</span>
+                <li>1</li>
+                <li>2</li>
+            </ul>
+            <div class="confirm">确定</div>
+        </div>
     </div>
-
-    <div class="footer" data-role="footer" data-theme="b">
-        <h1>&copy;主页</h1>
-    </div>
-</div>
+    <script src="http://api.map.baidu.com/getscript?v=2.0&ak=N5lqppBv8Cx6SsyjKHVWQRwETipyiVem&services=&t=20170606131300"></script>
+    <script src="js/map.js"></script>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

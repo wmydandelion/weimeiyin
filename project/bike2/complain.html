@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	  <title>投诉页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+    	body{
+    		width: 100%;
+    		height: 100%;
+    	}
+   		h1{
+   			text-align: center;
+   		}
+    </style>
+</head>
+<body>
+<div data-role="page" style="background-color: lightgrey;">
+	<h1>投诉</h1>
+	<div data-role="content">
+		 <div class="ui-grid-a">
+            <div class="ui-block-a"><a href="index.html" class="ui-btn ui-icon-carat-l ui-btn-icon-left ui-corner-all">返回</a></div>
+            <div class="ui-block-b"><a href="help.html" class="ui-btn ui-icon-info ui-btn-icon-right ui-corner-all">帮助</a></div>
+        </div>
+	
+
+  <div data-role="header">
+  <h1>选择投诉类型</h1>
+  </div>
+
+  <div data-role="content">
+    <form method="post" action="demoform.asp">
+      <fieldset data-role="fieldcontain">
+        <label for="reason"></label>
+        <select name="day" id="day">
+         <option value="one">自行车出现故障</option>
+         <option value="two">消费出现问题</option>
+         <option value="three">扫码跳转不明页面</option>
+        </select>
+      </fieldset>
+      <textarea name="complainCon" id="" cols="30" rows="40" onfocus="if(this.value=='请简明阐述你的理由') {this.value='';}" onblur="if(this.value=='') {this.value='请简明阐述你的理由'}">请简明阐述你的理由</textarea><br />
+      <input type="text" value="车牌号(车牌号损坏不用填写)" onfocus="if(this.value=='车牌号(车牌号损坏不用填写)') {this.value='';}" onblur="if(this.value=='') {this.value='车牌号(车牌号损坏不用填写)'}">
+      <input type="submit" data-inline="true" value="提交">
+    </form>
+  </div>
+  <div data-role="footer">
+    <h1><a href="regist.html" class="ui-btn ui-icon-info ui-btn-icon-right ui-corner-all">没有账号?</a></h1>
+  </div>
+	
+
+</div>
+</div>
+</body>
+</html>

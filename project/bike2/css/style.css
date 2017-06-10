@@ -1,0 +1,195 @@
+li{
+    list-style: none;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 1744px;
+    position: relative;
+    overflow: hidden;
+
+}
+#map{
+    width: 100%;
+    height: 100%;
+}
+/*下拉菜单*/
+.content{
+    width:100%;
+    height: 40%;
+    background: #ffffff;
+    position: absolute;
+    border-top-left-radius:40%;
+    border-top-right-radius:40%;
+    bottom: 0;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    color: #000;
+    margin-left: 50%;
+    left: -25px;
+}
+.fa{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    color: #eeeeee;
+    font-size: 69px;
+}
+.display{
+    display: none;
+}
+.fa-exclamation-triangle{
+    color: #f00;
+    left: 92%;
+    top: 20px;
+}
+.fa-heart{
+    color: #a9a9a9;
+    left: 20px;
+    bottom: 50px;
+}
+.fa-bicycle{
+    color: #a9a9a9;
+    left: 32%;
+    bottom: 50px;
+}
+.fa-clock-o{
+    color: #a9a9a9;
+    left: 63%;
+    bottom: 50px;
+}
+.fa-user{
+    color: #a9a9a9;
+    left: 92%;
+    bottom:50px;
+}
+.scan{
+    background: #ffcc00;
+    background-image: url("../img/11.png");
+    background-repeat:no-repeat;
+    background-position: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 50%;
+    left: -150px;
+    top: 200px;
+}
+/*hot*/
+.hot {
+    background: url("../img/hot.gif") no-repeat scroll 0 0 transparent;
+    background-size: 80px 50px;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+}
+
+/*预定*/
+.menu{
+    width:100%;
+    height: 80%;
+    background: #ffffff;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -2000px;
+    font-family:SimSun;
+}
+.box,.type,.time,.amount{
+    width: 100%;
+    height:20%;
+    border-bottom: 1px solid #000;
+    font-size: 50px;
+    color: #000;
+}
+.b-img{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    top: -50px;
+}
+.b-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.f-img{
+    z-index: 1;
+}
+.b-money{
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    color: #ff6600;
+    font-size: 50px;
+    top: 30px;
+}
+.b-num{
+    display: inline-block;
+    position: absolute;
+    left: 42%;
+    top: 100px;
+    color: #000;
+    font-size: 40px;
+}
+.fa-times{
+    top: 20px;
+    left: 92%;
+    color: #eeeeee;
+
+}
+.t-span{
+    display: block;
+    clear: both;
+}
+.type li,.time li,.amount li{
+    background: #eee;
+    border-radius: 20%;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    margin: 20px;
+    float: left;
+    padding-top: 20px;
+}
+.time li{
+    width: 25%;
+    height: 20%;
+    font-size: 45px;
+    padding-top: 0;
+}
+.amount{
+    margin: 0;
+}
+.confirm{
+    width: 100%;
+    height:10%;
+    background: #ff6600;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 3%;
+}
+.type li.select,.time li.select,.amount li.select{
+    background: #ff6600 ;
+}
+
+
+
