@@ -7,7 +7,7 @@
  */
 echo date("y/m/d")."<Hr>";
 echo date("y-m-d")."<Hr>";
-echo date("y.m.d")."<Hr>";
+echo date("y.m.d")."<r>";b
 echo date("y/m/d")."<Hr>";
 echo date("1")."<Hr>";
 
