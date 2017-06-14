@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzE9xAESye6Kde-3hT-6B90nfwUkcS8Yw&sensor=false">
+    </script>
+</head>
+<body>
+
+
+
+
+<!--center（中心点）-->
+<!--中心属性指定了地图的中心，该中心通过坐标（纬度，经度）在地图上创建一个中心点。-->
+<!--Zoom（缩放级数）-->
+<!--zoom 属性指定了地图的 缩放级数。zoom: 0 显示了整个地球地图的完全缩放。-->
+<!--MapTypeId（地图的初始类型）-->
+<!--mapTypeId 属性指定了地图的初始类型。-->
+<!--mapTypeId包括如下四种类型：-->
+<!--google.maps.MapTypeId.HYBRID：显示卫星图像的主要街道透明层-->
+<!--google.maps.MapTypeId.ROADMAP：显示普通的街道地图-->
+<!--google.maps.MapTypeId.SATELLITE：显示卫星图像-->
+<!--google.maps.MapTypeId.TERRAIN：显示带有自然特征（如地形和植被）的地图-->
+<div id="googleMap" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap2" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap3" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap4" style="width:400px;height:300px;"></div>
+<script>
+function initialize()
+{
+var mapProp = {
+center: new google.maps.LatLng(51.508742,-0.120850),
+zoom:9,
+mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+var mapProp2 = {
+center: new google.maps.LatLng(51.508742,-0.120850),
+zoom:9,
+mapTypeId: google.maps.MapTypeId.SATELLITE
+};
+var mapProp3 = {
+center: new google.maps.LatLng(51.508742,-0.120850),
+zoom:9,
+mapTypeId: google.maps.MapTypeId.HYBRID
+};
+var mapProp4 = {
+center: new google.maps.LatLng(51.508742,-0.120850),
+zoom:9,
+mapTypeId: google.maps.MapTypeId.TERRAIN
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var map2 = new google.maps.Map(document.getElementById("googleMap2"),mapProp2);
+var map3 = new google.maps.Map(document.getElementById("googleMap3"),mapProp3);
+var map4 = new google.maps.Map(document.getElementById("googleMap4"),mapProp4);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
+</html>
