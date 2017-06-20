@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>站点查询</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+<div class="container" style="text-align: center;">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">车票预定系统</a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="login.html">用户登陆</a></li>
+                    <li><a href="regist.html">用户注册</a></li>
+                    <li><a href="new.html">新建车次</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            查询<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="checkByNum.html">车次查询</a></li>
+                            <li class="divider"></li>
+                            <li><a href="checkByTime.html">站点查询</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="book.html">车票订购</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1>站点查询</h1>
+
+    <form role="form">
+        <div class="form-group">
+            <label for="name">起始站
+                <select class="form-control">
+                    <option>哈尔滨</option>
+                    <option>齐齐哈尔</option>
+                    <option>长春</option>
+                    <option>北京</option>
+                    <option>大连</option>
+                    <option>沈阳</option>
+                    <option>郑州</option>
+                    <option>苏州</option>
+                </select></label>
+            <label for="name">终点站
+                <select class="form-control">
+                    <option>齐齐哈尔</option>
+                    <option>哈尔滨</option>
+                    <option>长春</option>
+                    <option>北京</option>
+                    <option>大连</option>
+                    <option>沈阳</option>
+                    <option>郑州</option>
+                    <option>苏州</option>
+                </select></label><br/><br/>
+            <label for="">发车时间
+                <input type="datetime-local"/>
+            </label><br/><br/>
+        </div>
+
+
+
+
+        <div class="btn-group btn-group-lg">
+            <button type="submit" class="btn btn-success"><a href="#">查询</a></button>
+            <button type="reset" class="btn btn-danger"><a href="#">取消</a></button>
+        </div>
+
+    </form>
+
+</div>
+</body>
+</html>
