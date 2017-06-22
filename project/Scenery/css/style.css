@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    border: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: none;
+}
+/*html,body{*/
+    /*background-image: url("../img/bg.jpg");*/
+    /*background-repeat: repeat;*/
+/*}*/
+
+/*.bg{*/
+    /*background:url("../img/bg.jpg") no-repeat center fixed;*/
+    /*background-size:contain;*/
+/*}*/
+.nav,a:hover{
+    background-color: #74c76c;
+    color: #e3e1df;
+}
+.active{
+    background-color: #c72850;
+    color: #fffbff;
+    animation: myfirst 5s;
+}
+
+
+ul,li,ol{
+    text-decoration: none;
+}
+@keyframes myfirst
+{
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
+
+@-webkit-keyframes myfirst /* Safari ”Î Chrome */
+{
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}

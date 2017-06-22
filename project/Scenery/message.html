@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="bg">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>留言</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <style>
+        .comment{width:680px; margin:20px auto; position:relative}
+        .comment h3{height:28px; line-height:28px}
+        .com_form{width:100%; position:relative}
+        .input{width:99%; height:60px; border:1px solid #ccc}
+        .com_form p{height:28px; line-height:28px; position:relative}
+        span.emotion{width:42px; height:20px; background:url(icon.gif) no-repeat 2px 2px; padding-left:20px; cursor:pointer}
+        span.emotion:hover{background-position:2px -28px}
+        .qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
+        .qqFace table td{padding:0px;}
+        .qqFace table td img{cursor:pointer;border:1px #fff solid;}
+        .qqFace table td img:hover{border:1px #0066cc solid;}
+        #show{width:680px; margin:20px auto}
+
+        .sub_btn {
+            position:absolute; right:0px; top:0;
+            display: inline-block;
+            zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+            *display: inline;
+            vertical-align: baseline;
+            margin: 0 2px;
+            outline: none;
+            cursor: pointer;
+            text-align: center;
+            font: 14px/100% Arial, Helvetica, sans-serif;
+            padding: .5em 2em .55em;
+            text-shadow: 0 1px 1px rgba(0,0,0,.6);
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+            box-shadow: 0 1px 2px rgba(0,0,0,.2);
+            color: #e8f0de;
+            border: solid 1px #538312;
+            background: #64991e;
+            background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+            background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+            filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+        }
+        .sub_btn:hover {
+            background: #538018;
+            background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+            background: -moz-linear-gradient(top,  #6b9d28,  #436b0c);
+            filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+        }
+    </style>
+</head>
+<body style="background-image: url(img/bg3.jpg);background-repeat: repeat;">
+<div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><h3>首页</h3></a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="login.html"><h2>登陆</h2></a></li>
+                    <li><a href="regist.html"><h2>注册</h2></a></li>
+                    <li><a href="find.html"><h2>查询</h2></a></li>
+                    <li><a href="message.html" class="active"><h2>留言</h2></a></li>
+                    <li><a href="book.html"><h2>预定</h2></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ul>
+        <li>发表时间：<input type="datetime-local"/></li>
+        <li>
+            <div id="show"></div>
+            <div class="comment">
+                <div class="com_form">
+                    <textarea class="input" id="saytext" name="saytext"></textarea>
+                    <p><span class="emotion">表情</span></p>
+                </div>
+            </div>
+        </li>
+    </ul>发表内容：<br/>
+    <textarea name="msg" id="msg" cols="40" rows="10">
+    </textarea><br/><br/>
+    <button class="btn btn-lg btn-info"><a href="regist.html">提交</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-lg btn-danger"><a href="login.html">取消</a></button>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qqFace.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('.emotion').qqFace({
+            id : 'facebox', //表情盒子的ID
+            assign:'saytext', //给那个控件赋值
+            path:'face/'	//表情存放的路径
+        });
+        $(".sub_btn").click(function(){
+            var str = $("#saytext").val();
+            $("#show").html(replace_em(str));
+        });
+    });
+    //查看结果
+    function replace_em(str){
+        str = str.replace(/\</g,'&lt;');
+        str = str.replace(/\>/g,'&gt;');
+        str = str.replace(/\n/g,'<br/>');
+        str = str.replace(/\[em_([0-9]*)\]/g,'<img src="face/$1.gif" border="0" />');
+        return str;
+    }
+</script>
+<script type="text/javascript" src="jquery.1.11.1.js"></script>
+<script type="text/javascript" src="jquery.qqFace.js"></script>
+</body>
+</html>
