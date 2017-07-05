@@ -1,0 +1,35 @@
+#header{
+    height:1.02rem;
+    background: #06c1ae;
+    line-height: 1.02rem;
+    display: -webkit-box;
+}
+#city{
+    background: url(../img/downarrow.png) no-repeat 0.98rem center;
+    background-size: 0.32rem 0.32rem;
+    color: #fff;
+    margin: 0 0.4rem;
+}
+#mine{
+    color: #fff;
+    width: 0.6rem;
+}
+#search{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+#search input{
+    border-radius:0.1rem;
+    outline:none;
+    background: #05a494;
+    text-indent:0.1rem;
+    /*width:3.75rem;*/
+    height: 0.64rem;
+    color: #fff;
+
+}
+
+#search input::-webkit-input-placeholder{
+    color: #fff;
+    opacity: 0.8;
+}
