@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/html/折叠菜单2.html" line="55" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/html5/html/折叠菜单2.html" line="55" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f449199c-dc7f-49aa-be17-d2aadd2ea4ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/动态创建节点方式.html" afterPath="$PROJECT_DIR$/javascript/动态创建节点方式.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/单例模式.html" afterPath="$PROJECT_DIR$/javascript/单例模式.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/原型链模式.html" afterPath="$PROJECT_DIR$/javascript/原型链模式.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/工厂模式.html" afterPath="$PROJECT_DIR$/javascript/工厂模式.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/数据类型检测方法.html" afterPath="$PROJECT_DIR$/javascript/数据类型检测方法.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/数组求平均数.html" afterPath="$PROJECT_DIR$/javascript/数组求平均数.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/文档碎片方式.html" afterPath="$PROJECT_DIR$/javascript/文档碎片方式.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/正则表达式.html" afterPath="$PROJECT_DIR$/javascript/正则表达式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/6_三列布局，左右固定，中间自适应.html" afterPath="$PROJECT_DIR$/html5/html/6_三列布局，左右固定，中间自适应.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/float.html" afterPath="$PROJECT_DIR$/html5/html/float.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/html简介.html" afterPath="$PROJECT_DIR$/html5/html/html简介.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/line-height.html" afterPath="$PROJECT_DIR$/html5/html/line-height.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/列表.html" afterPath="$PROJECT_DIR$/html5/html/列表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/垂直导航菜单.html" afterPath="$PROJECT_DIR$/html5/html/垂直导航菜单.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/多级导航菜单.html" afterPath="$PROJECT_DIR$/html5/html/多级导航菜单.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/多级导航菜单1.html" afterPath="$PROJECT_DIR$/html5/html/多级导航菜单1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/字母排序.html" afterPath="$PROJECT_DIR$/html5/html/字母排序.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/字符串拼接的方式.html" afterPath="$PROJECT_DIR$/html5/html/字符串拼接的方式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/定位.html" afterPath="$PROJECT_DIR$/html5/html/定位.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/定位2.html" afterPath="$PROJECT_DIR$/html5/html/定位2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/折叠菜单.html" afterPath="$PROJECT_DIR$/html5/html/折叠菜单.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/折叠菜单2.html" afterPath="$PROJECT_DIR$/html5/html/折叠菜单2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/选项卡.html" afterPath="$PROJECT_DIR$/html5/html/选项卡.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/选项卡1.html" afterPath="$PROJECT_DIR$/html5/html/选项卡1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/选项卡2.html" afterPath="$PROJECT_DIR$/html5/html/选项卡2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/选项卡3.html" afterPath="$PROJECT_DIR$/html5/html/选项卡3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/选项卡4.html" afterPath="$PROJECT_DIR$/html5/html/选项卡4.html" />
     </list>
     <list id="4327e316-3719-4aac-a6ef-bfc080198d3b" name="Rejected commit: Default" comment="gulp" />
     <list id="9bbfc5a9-b08b-4893-a310-90010442f71d" name="Rejected commit: Default (2)" comment="eshop" />
@@ -34,102 +45,44 @@
     <favorites_list name="weimeiyin" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RegularExpression/2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RegularExpression/3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/meituan/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6_三列布局，左右固定，中间自适应.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/6_三列布局，左右固定，中间自适应.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="原型链模式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/原型链模式.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="jquery-1.12.4.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/jquery-1.12.4.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/js1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="单例模式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/单例模式.html">
+      <file leaf-file-name="字符串拼接的方式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5/html/字符串拼接的方式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="字母排序.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5/html/字母排序.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="动态创建节点方式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/动态创建节点方式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="工厂模式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/工厂模式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="文档碎片方式.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript/文档碎片方式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="折叠菜单.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/折叠菜单.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -153,9 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jQuery Mobile/列表.html" />
-        <option value="$PROJECT_DIR$/jQuery Mobile/列表分隔符.html" />
-        <option value="$PROJECT_DIR$/jQuery Mobile/搜索过滤器.html" />
         <option value="$PROJECT_DIR$/jQuery Mobile/计数泡沫.html" />
         <option value="$PROJECT_DIR$/jQuery Mobile/可折叠列表.html" />
         <option value="$PROJECT_DIR$/jQuery Mobile/页眉文本.html" />
@@ -204,6 +154,9 @@
         <option value="$PROJECT_DIR$/RegularExpression/3.html" />
         <option value="$PROJECT_DIR$/project/meituan/index.html" />
         <option value="$PROJECT_DIR$/html/6_三列布局，左右固定，中间自适应.html" />
+        <option value="$PROJECT_DIR$/javascript/文档碎片方式.html" />
+        <option value="$PROJECT_DIR$/javascript/js1.html" />
+        <option value="$PROJECT_DIR$/html/字符串拼接的方式.html" />
       </list>
     </option>
   </component>
@@ -215,14 +168,15 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/gulp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/project/zeptojs/node_modules" />
     <handled-path value="$PROJECT_DIR$/vue/axios/node_modules" />
     <handled-path value="$PROJECT_DIR$/vue/project/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="x" value="743" />
+    <option name="y" value="1" />
+    <option name="width" value="870" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -243,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -288,14 +243,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weimeiyin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weimeiyin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="last_opened_file_path" value="E:/fellows10/fellows10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -308,19 +276,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\weimeiyin\javascript" />
-      <recent name="D:\code\weimeiyin\html" />
-      <recent name="D:\code\weimeiyin\jQuery Mobile" />
-      <recent name="D:\code\weimeiyin\project\bike" />
-      <recent name="D:\code\weimeiyin\project" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\weimeiyin\vue" />
       <recent name="D:\code\weimeiyin\ajax" />
       <recent name="D:\code\weimeiyin\project" />
       <recent name="D:\code\weimeiyin\project\打砖块游戏\images" />
       <recent name="D:\code\weimeiyin\project\打砖块游戏\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\weimeiyin\html5" />
+      <recent name="E:\weimeiyin\javascript" />
+      <recent name="D:\code\weimeiyin\html" />
+      <recent name="D:\code\weimeiyin\jQuery Mobile" />
+      <recent name="D:\code\weimeiyin\project\bike" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,21 +403,8 @@
       <workItem from="1494577229013" duration="150000" />
       <workItem from="1494577473685" duration="133000" />
       <workItem from="1495701299641" duration="64000" />
-      <workItem from="1499222723634" duration="2980000" />
-    </task>
-    <task id="LOCAL-00035" summary="es6">
-      <created>1491032269863</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1491032269863</updated>
-    </task>
-    <task id="LOCAL-00036" summary="es6">
-      <created>1491050958257</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1491050958257</updated>
+      <workItem from="1499222723634" duration="3323000" />
+      <workItem from="1499233102712" duration="138000" />
     </task>
     <task id="LOCAL-00037" summary="es6">
       <created>1491052674846</created>
@@ -780,11 +735,25 @@
       <option name="project" value="LOCAL" />
       <updated>1499225806899</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="前端自学">
+      <created>1499226079906</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1499226079906</updated>
+    </task>
+    <task id="LOCAL-00085" summary="javascript">
+      <created>1499226289489</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1499226289489</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4151000" />
+    <option name="totallyTimeSpent" value="4632000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -796,18 +765,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="743" y="1" width="870" height="876" extended-state="0" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27283373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31853786" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32284382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10712401" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -860,7 +829,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/CSS3/音符跳动" />
     </ignored-roots>
-    <MESSAGE value="bootstrap&#10;" />
     <MESSAGE value="es6&#10;" />
     <MESSAGE value="es6" />
     <MESSAGE value="sass" />
@@ -885,7 +853,8 @@
     <MESSAGE value="正则表达式" />
     <MESSAGE value="创建美团项目的首页" />
     <MESSAGE value="前端自学" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端自学" />
+    <MESSAGE value="javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,34 +863,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/主题化表单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/添加新主题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/ready事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/pageinit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery Mobile/tap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1198,7 +1139,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/折叠菜单.html">
+    <entry file="file://$PROJECT_DIR$/html5/html/折叠菜单.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
@@ -1206,7 +1147,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/6_三列布局，左右固定，中间自适应.html">
+    <entry file="file://$PROJECT_DIR$/html5/html/6_三列布局，左右固定，中间自适应.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
@@ -1247,6 +1188,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/文档碎片方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/jquery-1.12.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/js1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/html/字符串拼接的方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/html/字母排序.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
