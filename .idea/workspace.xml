@@ -5,36 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f449199c-dc7f-49aa-be17-d2aadd2ea4ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/6_三列布局，左右固定，中间自适应.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/jquery-1.12.4.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/weimeiyin.iml" afterPath="$PROJECT_DIR$/.idea/weimeiyin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/折叠菜单.html" afterPath="$PROJECT_DIR$/html/折叠菜单.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/bind.html" afterPath="$PROJECT_DIR$/javascript/bind.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/call.html" afterPath="$PROJECT_DIR$/javascript/call.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js1.html" afterPath="$PROJECT_DIR$/javascript/js1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js10.html" afterPath="$PROJECT_DIR$/javascript/js10.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js11.html" afterPath="$PROJECT_DIR$/javascript/js11.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js12.html" afterPath="$PROJECT_DIR$/javascript/js12.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js13.html" afterPath="$PROJECT_DIR$/javascript/js13.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js14.html" afterPath="$PROJECT_DIR$/javascript/js14.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js15.html" afterPath="$PROJECT_DIR$/javascript/js15.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js2.html" afterPath="$PROJECT_DIR$/javascript/js2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js3.html" afterPath="$PROJECT_DIR$/javascript/js3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js4.html" afterPath="$PROJECT_DIR$/javascript/js4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js5.html" afterPath="$PROJECT_DIR$/javascript/js5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js6.html" afterPath="$PROJECT_DIR$/javascript/js6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js7.html" afterPath="$PROJECT_DIR$/javascript/js7.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js8.html" afterPath="$PROJECT_DIR$/javascript/js8.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/js9.html" afterPath="$PROJECT_DIR$/javascript/js9.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/object.html" afterPath="$PROJECT_DIR$/javascript/object.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/setTimeout.html" afterPath="$PROJECT_DIR$/javascript/setTimeout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/sort.html" afterPath="$PROJECT_DIR$/javascript/sort.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/test.html" afterPath="$PROJECT_DIR$/javascript/test.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/this.html" afterPath="$PROJECT_DIR$/javascript/this.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/this2.html" afterPath="$PROJECT_DIR$/javascript/this2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/作用域.html" afterPath="$PROJECT_DIR$/javascript/作用域.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/动态创建节点方式.html" afterPath="$PROJECT_DIR$/javascript/动态创建节点方式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/单例模式.html" afterPath="$PROJECT_DIR$/javascript/单例模式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/原型链模式.html" afterPath="$PROJECT_DIR$/javascript/原型链模式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/工厂模式.html" afterPath="$PROJECT_DIR$/javascript/工厂模式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/数据类型检测方法.html" afterPath="$PROJECT_DIR$/javascript/数据类型检测方法.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/数组求平均数.html" afterPath="$PROJECT_DIR$/javascript/数组求平均数.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/文档碎片方式.html" afterPath="$PROJECT_DIR$/javascript/文档碎片方式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html/正则表达式.html" afterPath="$PROJECT_DIR$/javascript/正则表达式.html" />
     </list>
     <list id="4327e316-3719-4aac-a6ef-bfc080198d3b" name="Rejected commit: Default" comment="gulp" />
     <list id="9bbfc5a9-b08b-4893-a310-90010442f71d" name="Rejected commit: Default (2)" comment="eshop" />
@@ -56,16 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="示例1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RegularExpression/示例1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RegularExpression/2.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +65,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6_三列布局，左右固定，中间自适应.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6_三列布局，左右固定，中间自适应.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/6_三列布局，左右固定，中间自适应.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
               <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="原型链模式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/原型链模式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="单例模式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/单例模式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="动态创建节点方式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/动态创建节点方式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="工厂模式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/工厂模式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="文档碎片方式.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/文档碎片方式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,9 +220,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="width" value="776" />
-    <option name="height" value="920" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -415,14 +435,7 @@
       <workItem from="1494577229013" duration="150000" />
       <workItem from="1494577473685" duration="133000" />
       <workItem from="1495701299641" duration="64000" />
-      <workItem from="1499222723634" duration="2696000" />
-    </task>
-    <task id="LOCAL-00034" summary="es6&#10;">
-      <created>1491025107921</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1491025107921</updated>
+      <workItem from="1499222723634" duration="2980000" />
     </task>
     <task id="LOCAL-00035" summary="es6">
       <created>1491032269863</created>
@@ -760,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499225060412</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="前端自学">
+      <created>1499225806899</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1499225806899</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3867000" />
+    <option name="totallyTimeSpent" value="4151000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -776,12 +796,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="0" width="776" height="920" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30789474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31880733" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31853786" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32284382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10712401" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -840,7 +860,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/CSS3/音符跳动" />
     </ignored-roots>
-    <MESSAGE value="angular2" />
     <MESSAGE value="bootstrap&#10;" />
     <MESSAGE value="es6&#10;" />
     <MESSAGE value="es6" />
@@ -865,7 +884,8 @@
     <MESSAGE value="weimeiyin" />
     <MESSAGE value="正则表达式" />
     <MESSAGE value="创建美团项目的首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建美团项目的首页" />
+    <MESSAGE value="前端自学" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端自学" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -874,41 +894,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/主题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/主题2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/主题化的对话框.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/主题化的按钮.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/主题化的图标.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery Mobile/主题化表单.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1225,6 +1210,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/原型链模式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/单例模式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/动态创建节点方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/工厂模式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/文档碎片方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
