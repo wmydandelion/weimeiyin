@@ -5,228 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f449199c-dc7f-49aa-be17-d2aadd2ea4ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/一楼自习区.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/中图法.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/二楼查阅.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/免费电影院.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/入馆须知视频.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/自由空间.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/action-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/action-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/alert-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/alert-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-d-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-d-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-d-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-d-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-d-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-d-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-u-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-u-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-u-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-u-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-u-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/arrow-u-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/audio-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/audio-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/back-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/back-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/bars-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/bars-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/bullets-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/bullets-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/calendar-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/calendar-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/camera-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/camera-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-d-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-d-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-u-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/carat-u-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/check-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/check-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/clock-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/clock-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/cloud-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/cloud-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/comment-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/comment-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/delete-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/delete-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/edit-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/edit-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/eye-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/eye-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/forbidden-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/forbidden-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/forward-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/forward-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/gear-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/gear-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/grid-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/grid-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/heart-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/heart-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/home-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/home-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/info-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/info-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/location-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/location-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/lock-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/lock-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/mail-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/mail-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/minus-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/minus-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/navigation-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/navigation-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/phone-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/phone-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/plus-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/plus-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/power-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/power-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/recycle-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/recycle-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/refresh-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/refresh-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/search-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/search-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/shop-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/shop-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/star-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/star-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/tag-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/tag-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/user-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/user-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/video-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-png/video-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/activity1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/activity2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/activity3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/meituan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/xianyuxian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/入馆须知.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/图书借还.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/图书馆概况.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/常见问题.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/读者服务.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/library/入馆教育/资源介绍.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/action-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/action-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/alert-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/alert-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-d-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-d-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-d-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-d-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-d-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-d-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-u-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-u-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-u-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-u-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-u-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/arrow-u-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/audio-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/audio-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/back-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/back-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/bars-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/bars-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/bullets-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/bullets-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/calendar-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/calendar-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/camera-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/camera-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-d-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-d-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-u-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/carat-u-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/check-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/check-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/clock-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/clock-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/cloud-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/cloud-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/comment-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/comment-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/delete-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/delete-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/edit-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/edit-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/eye-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/eye-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/forbidden-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/forbidden-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/forward-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/forward-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/gear-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/gear-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/grid-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/grid-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/heart-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/heart-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/home-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/home-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/info-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/info-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/location-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/location-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/lock-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/lock-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/mail-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/mail-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/minus-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/minus-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/navigation-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/navigation-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/phone-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/phone-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/plus-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/plus-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/power-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/power-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/recycle-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/recycle-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/refresh-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/refresh-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/search-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/search-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/shop-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/shop-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/star-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/star-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/tag-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/tag-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/user-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/user-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/video-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/css/images/icons-svg/video-white.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/css/common.css" afterPath="$PROJECT_DIR$/project/meituan/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/css/index.css" afterPath="$PROJECT_DIR$/project/meituan/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/index.html" afterPath="$PROJECT_DIR$/project/meituan/index.html" />
     </list>
     <list id="4327e316-3719-4aac-a6ef-bfc080198d3b" name="Rejected commit: Default" comment="gulp" />
     <list id="9bbfc5a9-b08b-4893-a310-90010442f71d" name="Rejected commit: Default (2)" comment="eshop" />
@@ -248,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/meituan/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -261,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/meituan/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="586">
-              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+              <caret line="224" column="19" lean-forward="true" selection-start-line="224" selection-start-column="19" selection-end-line="224" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -274,7 +54,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/meituan/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="380">
               <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
@@ -350,8 +130,8 @@
         <option value="$PROJECT_DIR$/html5/html/字母排序.html" />
         <option value="$PROJECT_DIR$/project/meituan/js/index.js" />
         <option value="$PROJECT_DIR$/project/meituan/css/common.css" />
-        <option value="$PROJECT_DIR$/project/meituan/css/index.css" />
         <option value="$PROJECT_DIR$/project/meituan/index.html" />
+        <option value="$PROJECT_DIR$/project/meituan/css/index.css" />
       </list>
     </option>
   </component>
@@ -369,10 +149,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="1015" />
+    <option name="width" value="905" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -610,14 +389,7 @@
       <workItem from="1499269673679" duration="359000" />
       <workItem from="1499315881269" duration="2019000" />
       <workItem from="1499318014802" duration="334000" />
-      <workItem from="1499342169041" duration="4905000" />
-    </task>
-    <task id="LOCAL-00039" summary="sass">
-      <created>1491393998179</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1491393998179</updated>
+      <workItem from="1499342169041" duration="5239000" />
     </task>
     <task id="LOCAL-00040" summary="sass">
       <created>1491537769503</created>
@@ -955,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499318263106</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="project">
+      <created>1499349774868</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1499349774868</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12249000" />
+    <option name="totallyTimeSpent" value="12583000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -971,11 +750,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="1015" y="0" width="905" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2604284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31740615" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1392,28 +1171,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/meituan/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/meituan/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/meituan/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1426,6 +1187,24 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/meituan/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/meituan/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="224" column="19" lean-forward="true" selection-start-line="224" selection-start-column="19" selection-end-line="224" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
