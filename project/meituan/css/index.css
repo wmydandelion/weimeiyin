@@ -3,6 +3,7 @@
     background: #06c1ae;
     line-height: 1.02rem;
     display: -webkit-box;
+    outline: 0;
 }
 #city{
     background: url(../img/downarrow.png) no-repeat 0.9rem center;
@@ -19,6 +20,7 @@
 #search{
     -moz-box-flex: 1;
     -webkit-box-flex: 1;
+    text-shadow: 0 0 0 0;
 }
 #search input{
     width:100%;
@@ -29,7 +31,6 @@
     /*width:3.75rem;*/
     height: 0.64rem;
     color: #fff;
-
 }
 input{
     border:0;
@@ -212,7 +213,7 @@ input{
     height: 1rem;
     margin-left:0.2rem;
 }
-#footer img,#footer div,#footer botton{
+#footer img,#footer div,#footer button{
     -moz-box-flex: 1;
     -webkit-box-flex: 1;
 }
@@ -221,7 +222,7 @@ input{
     margin-left:0.3rem;
 }
 #footer .download{
-    width: 2.4rem;
+    width: 1.2rem;
     height: 0.7rem;
     background-color: transparent;
     border:1px solid #06c1ae;
