@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f449199c-dc7f-49aa-be17-d2aadd2ea4ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/css/index.css" afterPath="$PROJECT_DIR$/project/meituan/css/index.css" />
     </list>
     <list id="4327e316-3719-4aac-a6ef-bfc080198d3b" name="Rejected commit: Default" comment="gulp" />
     <list id="9bbfc5a9-b08b-4893-a310-90010442f71d" name="Rejected commit: Default (2)" comment="eshop" />
@@ -389,14 +388,7 @@
       <workItem from="1499269673679" duration="359000" />
       <workItem from="1499315881269" duration="2019000" />
       <workItem from="1499318014802" duration="334000" />
-      <workItem from="1499342169041" duration="5239000" />
-    </task>
-    <task id="LOCAL-00040" summary="sass">
-      <created>1491537769503</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1491537769503</updated>
+      <workItem from="1499342169041" duration="5274000" />
     </task>
     <task id="LOCAL-00041" summary="html">
       <created>1491543758625</created>
@@ -734,11 +726,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499349774868</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="project">
+      <created>1499350101560</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1499350101560</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12583000" />
+    <option name="totallyTimeSpent" value="12618000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -751,10 +750,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1015" y="0" width="905" height="1025" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2604284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2604284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31740615" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
