@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    border:0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.footer{
+    position:fixed;
+    bottom:0;
+    color: #fff;
+    height:3rem;
+    background: #333;
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height:3rem;
+}

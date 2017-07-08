@@ -26,9 +26,10 @@
     width:100%;
     border-radius:0.06rem;
     outline:none;
-    background: #05a494;
-    text-indent:0.1rem;
+    background: #05a494 url(../img/magnify.png) no-repeat 0.1rem center;
+    text-indent:0.5rem;
     /*width:3.75rem;*/
+    background-size:0.32rem 0.32rem;
     height: 0.64rem;
     color: #fff;
 }

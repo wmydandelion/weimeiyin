@@ -1,0 +1,25 @@
+body{
+    background: #cbdef1;
+    font-size: larger;
+ }
+#myCarousel {
+    height: 25rem;
+    width: 50rem;
+}
+a:hover{
+    color: #fff;
+    font-weight: 900;
+    font-size: larger;
+}
+.carousel-caption{
+    text-align: center;
+    color: #fff;
+    font-size:larger;
+
+}
+span{
+    margin-right: 6rem;
+}
+img{
+    border:0;
+}
