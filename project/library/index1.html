@@ -81,17 +81,25 @@
 </head>
 <body>
 <div id="container">
-    <div id="imgs">
-        <img src="img/1.jpg" class="show" alt="" >
-        <img src="img/2.jpg" alt="" >
-        <img src="img/3.jpg" alt="" >
-        <img src="img/4.jpg" alt="" >
-        <img src="img/5.jpg" alt="" >
+    <div id="big-img">
+        <img src="img/1.jpg" alt="" style="z-index: 8">
+        <img src="img/2.jpg" alt="" style="z-index: 7">
+        <img src="img/3.jpg" alt="" style="z-index: 6">
+        <img src="img/4.jpg" alt="" style="z-index: 5">
+        <img src="img/5.jpg" alt="" style="z-index: 4">
+
+        <span id="prev">&ltcc;</span>
+        <span id="next">&gtcc;</span>
+
     </div>
-    <div id="arrows">
-        <span id="prev">&lt;</span>
-        <span id="next">&gt;</span>
-    </div>
+    <div id="small-img">
+    <img src="img/1.jpg" alt="">
+    <img src="img/2.jpg" alt="">
+    <img src="img/3.jpg" alt="">
+    <img src="img/4.jpg" alt="">
+    <img src="img/5.jpg" alt="">
+
+</div>
 </div>
     <span style="display: block;width: 100px;height: 100px;border-radius: 50%;text-align: center;
     line-height: 100px;background: red;font-weight: bolder;font-size:80px;color: white;float: right;box-shadow: 10px 10px 10px rgba(0,0,0,.8)">
@@ -101,33 +109,9 @@
 <div class="footer">
     &copy;东北林业大学图书馆
 </div>
+<script src="js/jslib.js"></script>
+<script src="js/index.js"></script>
 
-<script>
-    var oContainer = document.getElementById('container');
-    var oPrev = document.getElementById('prev');
-    var oNext = document.getElementById('next');
-    var aImg = oContainer.getElementsByTagName('img');
-
-    var index = 0;
-    oNext.onclick = function(){
-        aImg[index].className = 'hide';
-        index++;
-        if(index == aImg.length){
-            index = 0;
-        }
-        aImg[index].className = 'show';
-
-    }
-    oPrev.onclick = function(){
-        aImg[index].className = 'hide';
-        index--;
-        if(index == -1){
-            index = aImg.length-1;
-        }
-        aImg[index].className = 'show';
-
-    }
-</script>
 
 
 </body>
