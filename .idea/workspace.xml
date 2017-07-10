@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f449199c-dc7f-49aa-be17-d2aadd2ea4ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/banner-xianyuxian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/left-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/refund.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/sold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/star-gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/meituan/img/star-yellow.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/交通.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/休闲.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/健身游泳.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/全部.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/周边游.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/外卖.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/学习.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/旅行.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/景点.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/母婴亲子.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/洗浴汗蒸.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/清凉玩水.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/猫眼.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/结婚摄影.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/美发.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/美食.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/超市.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/酒店.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meituan/img/高端酒店.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/css/detail.css" afterPath="$PROJECT_DIR$/project/meituan/css/detail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/detail.html" afterPath="$PROJECT_DIR$/project/meituan/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/js/detail.js" afterPath="$PROJECT_DIR$/project/meituan/js/detail.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/meituan/js/index.js" afterPath="$PROJECT_DIR$/project/meituan/js/index.js" />
     </list>
     <list id="4327e316-3719-4aac-a6ef-bfc080198d3b" name="Rejected commit: Default" comment="gulp" />
@@ -102,8 +73,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/meituan/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="492">
+              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -229,9 +200,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="976" />
-    <option name="width" value="952" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -495,14 +467,7 @@
       <workItem from="1499574861984" duration="1261000" />
       <workItem from="1499648389059" duration="6494000" />
       <workItem from="1499674623998" duration="3150000" />
-      <workItem from="1499686988156" duration="11167000" />
-    </task>
-    <task id="LOCAL-00063" summary="ES6">
-      <created>1494577543906</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1494577543909</updated>
+      <workItem from="1499686988156" duration="11269000" />
     </task>
     <task id="LOCAL-00064" summary="dept">
       <created>1495938904021</created>
@@ -840,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499699708059</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="project">
+      <created>1499703429218</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1499703429218</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66180000" />
+    <option name="totallyTimeSpent" value="66282000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -856,11 +828,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="976" y="0" width="952" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31626847" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1384,8 +1356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/meituan/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="492">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding />
         </state>
       </provider>

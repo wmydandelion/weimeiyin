@@ -49,7 +49,6 @@ $(document).on("pageinit",function (event) {
         location.href = "detail.html";
     });
 
-
     function swipeGuide(index){
         $navSpan.eq(index).addClass("active").siblings().removeClass("active");
        $guideUl.css({
