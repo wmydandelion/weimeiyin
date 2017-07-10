@@ -1,7 +1,7 @@
 /**
  * Created by wmy on 2017/7/6.
  */
-$(function () {
+$(document).on("pageinit",function (event) {
     var $guideUl = $("#guide ul");
     var $navSpan = $("#nav span");
     // $navSpan.on("tap",function () {
@@ -44,6 +44,12 @@ $(function () {
             $(this).css("top",top);
         });
     });
+
+    $("#menu li").on("tap", function(){
+        location.href = "detail.html";
+    });
+
+
     function swipeGuide(index){
         $navSpan.eq(index).addClass("active").siblings().removeClass("active");
        $guideUl.css({
@@ -51,3 +57,4 @@ $(function () {
        });
     }
 });
+
