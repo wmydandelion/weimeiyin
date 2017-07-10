@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<button class="button success" type="button"  data-reveal-id="myModal">
+    点击打开模态框
+</button>
+<div class="reveal-modal" id="myModal" data-reveal>
+    <h2>模态框标题。</h2>
+    <p>模态框文本。</p>
+    <p>模态框文本。</p>
+    <a href="" class="close-reveal-modal">&times;</a>
+</div>
+<script>
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+</script>
+</body>
+</html>
