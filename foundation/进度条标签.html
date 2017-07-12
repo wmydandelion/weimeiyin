@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+    <style>
+    .percentage{
+        top: 50%;
+        left:50%;
+        position: absolute;
+        color: #fff;
+        transform: translate(-50%,-50%);
+        font-size: 12px;
+    }
+    </style>
+</head>
+<body>
+
+<div class="progress">
+    <span class="meter" style="position: relative;width: 75%;">
+        <span class="percentage">75%</span>
+    </span>
+</div>
+
+<div class="progress success">
+    <span class="meter" style="position:relative;width:50%">
+      <span class="percentage">50%</span>
+    </span>
+</div>
+
+<div class="progress alert">
+    <span class="meter" style="position:relative;width:25%">
+      <span class="percentage">25%</span>
+    </span>
+</div>
+
+</body>
+</html>
