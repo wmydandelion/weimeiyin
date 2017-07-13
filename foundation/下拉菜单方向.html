@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<hr>
+<hr>
+<hr>
+<a href="#" data-dropdown="id01" data-options="align:right" class="button dropdown">右边</a>
+<ul id="id01" data-dropdown-content class="f-dropdown">
+    <li><a href="">1</a></li>
+    <li><a href="">2</a></li>
+    <li><a href="">3</a></li>
+</ul>
+
+
+
+
+<a href="#" data-dropdown="id02" data-options="align:top" class="button dropdown">顶部</a>
+<ul id="id02" data-dropdown-content class="f-dropdown">
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+</ul>
+
+<a href="#" data-dropdown="id03" data-options="align:bottom" class="button dropdown">底部</a>
+<ul id="id03" data-dropdown-content class="f-dropdown">
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+</ul>
+
+<a href="#" data-dropdown="id04" data-options="align:left" class="button dropdown">左边</a>
+<ul id="id04" data-dropdown-content class="f-dropdown">
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+</ul>
+<script>
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+</script>
+</body>
+</html>
