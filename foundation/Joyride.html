@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<h2>Joyride 实例</h2>
+<p> joyride 在页面载入后生效。</p>
+
+<h3 id="first">第一个停止位置!</h3><br>
+<h3 id="second">第二个停止位置!</h3>
+
+<ol class="joyride-list" data-joyride>
+    <li data-id="first">
+        <p>这是一个 Joyride。你可以点击 "x" 按钮关闭它。</p>
+        <p>注意以下按钮，你带你倒下一个功能导航。</p>
+    </li>
+    <li data-id="second">
+        <h4>第二个停止位置 Stop</h4>
+        <p>你可以在这使用任何 HTML 代码</p>
+    </li>
+    <li data-button="End">
+        <h4>结束位置</h4>
+        <p>结束位置，你可以从头开始，或者关闭它。</p>
+    </li>
+</ol>
+
+<!-- 初始化 Foundation JS -->
+<script>
+    $(document).ready(function() {
+        $(document).foundation('joyride', 'start');
+    })
+</script>
+
+</body>
+</html>

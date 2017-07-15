@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<!-- Trigger the Modal -->
+<button type="button" class="button" data-reveal-id="myModal">Click To Open Modal</button>
+
+<!-- The Modal Content -->
+<div id="myModal" class="reveal-modal" data-reveal>
+    <h2>Heading in Modal.</h2>
+    <p>Some text in the modal.</p>
+    <p>Some text in the modal.</p>
+    <a class="close-reveal-modal">&times;</a>
+</div>
+
+<!-- Initialize Foundation JS -->
+<script>
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+</script>
+</body>
+</html>

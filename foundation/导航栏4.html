@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<nav class="top-bar" data-topbar>
+    <ul class="title-area">
+        <li class="name">
+            <h1><a href="#">WebSiteName</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+        <ul class="left">
+            <li class="has-dropdown">
+                <a href="#">Dropdown</a>
+                <ul class="dropdown">
+                    <li><label>Level 1</label></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">New dropdown</a>
+                        <ul class="dropdown">
+                            <li><label>Level 2</label></li>
+                            <li><a href="#">2nd level dropdown</a></li>
+                            <li><a href="#">2nd level dropdown</a></li>
+                            <li class="has-dropdown">
+                                <a href="#">New dropdown</a>
+                                <ul class="dropdown">
+                                    <li><label>Level 3</label></li>
+                                    <li><a href="#">3rd level dropdown</a></li>
+                                    <li><a href="#">3rd level dropdown</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</nav>
+<script>
+$(document).ready(function() {
+$(document).foundation();
+})
+</script>
+</body>
+</html>

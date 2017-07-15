@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foundation 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+
+<div class="row" data-equalizer="first">
+    <h2>内嵌均衡器</h2>
+    <p>一个均衡容器内嵌入另一个均衡容器:</p>
+    <div class="medium-4 columns">
+        <div class="panel" data-equalizer-watch="first">
+            <h3>面板</h3>
+            <div class="row" data-equalizer="second">
+                <div class="panel" data-equalizer-watch="second">
+                    <h3>内嵌面板</h3>
+                    p>菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>
+                </div>
+                <div class="panel" data-equalizer-watch="second">
+                    <h3>内嵌面板</h3>
+                    <p>菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>
+                </div>
+                <div class="panel" data-equalizer-watch="second">
+                    <h3>内嵌面板</h3>
+                    <p>菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="medium-4 columns">
+        <div class="panel" data-equalizer-watch="first">
+            <h3>面板</h3>
+            <p>菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>
+            <p>菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>
+        </div>
+    </div>
+    <div class="medium-4 columns">
+        <div class="panel" data-equalizer-watch="first">
+            <h3>面板</h3>
+            <p>菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>
+        </div>
+    </div>
+</div>
+
+<!-- 初始化 Foundation JS -->
+<script>
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+</script>
+
+</body>
+</html>

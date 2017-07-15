@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.bootcss.com/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<h2>Magellan</h2>
+<h4 class="subheader">麦哲伦导航就是一个导航索引，位置是固定的，会根据用户滚动当前展示的内容自动切换导航栏上的导航项:</h4>
+<hr>
+
+<div data-magellan-expedition="fixed">
+    <dl class="sub-nav">
+        <dd data-magellan-arrival="page1"><a href="#page1">Page 1</a></dd>
+        <dd data-magellan-arrival="page2"><a href="#page2">Page 2</a></dd>
+    </dl>
+</div>
+<hr>
+
+<div style="height:200px;background-color:#1abc9c;color:white;">
+    <h3 data-magellan-destination="page1">页面 1</h3>
+    <a name="page1"></a>
+    <p>滚动屏幕，查看导航栏上的变化。</p>
+</div>
+
+<h3 data-magellan-destination="page2">页面 2</h3>
+<a name="page2"></a>
+<p>滚动屏幕，查看导航栏上的变化。并尝试向上滚动。</p>
+
+<!-- 初始化 Foundation JS -->
+<script>
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+</script>
+</body>
+</html>
