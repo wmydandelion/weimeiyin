@@ -48,7 +48,6 @@ class User extends CI_Controller {
             echo "yes";
         }
 	}
-
     public function check_logined(){
         $userinfo = $this->session->userdata('userinfo');
         if(empty($userinfo)){
@@ -71,10 +70,8 @@ class User extends CI_Controller {
     public function logout()
     {
         $this->session->unset_userdata('userinfo');
-//        $this->session->sess_destroy();
             redirect("welcome");
     }
-
     public function user_detail()
     {
         $userinfo = $this->session->userdata('userinfo');
@@ -84,7 +81,6 @@ class User extends CI_Controller {
             "order_list" => $order_list
         ));
     }
-
     public function collect(){
         $product_id = $this->input->get('productId');
         $userinfo = $this->session->userdata('userinfo');
@@ -95,23 +91,18 @@ class User extends CI_Controller {
         }else{
             echo 'fail';
         }
-
-
-
     }
-
     public function cancel_collect(){
-        $product_id = $this->input -> get('productId');
-        $userinfo = $this -> session ->userdata('userinfo');
+        $product_id = $this->input->get('productId');
+        $userinfo = $this->session->userdata('userinfo');
         $user_id = $userinfo -> user_id;
-        $rows = $this -> product_model -> cancel_collect($user_id,$product_id);
-        if ($rows>0){
+        $rows =  $this-> product_model -> cancel_collect($user_id,$product_id);
+        if($rows>0){
             echo 'success';
         }else{
             echo 'fail';
         }
-        }
-
+    }
 }
 
 

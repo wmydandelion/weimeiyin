@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <base href="<?php echo site_url(); ?>">
-    <title>Title</title>
+    <title>退出成功</title>
 </head>
 <body>
 退出成功

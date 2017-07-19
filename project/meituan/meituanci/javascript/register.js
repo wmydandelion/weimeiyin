@@ -1,6 +1,3 @@
-/**
- * Created by xiecheng on 2017/7/12.
- */
 $(document).on("pageinit", function(){
 
     var $username = $("#username");

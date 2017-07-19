@@ -10,14 +10,12 @@ class User_model extends CI_Model
             'password' => $password
         )) -> row();
     }
-
     public function check_username($username)
     {
         return $this->db->get_where('t_user', array(
             'username' => $username
         )) -> row();
     }
-
     public function insert_user($username, $password)
     {
         $data = array(

@@ -1,5 +1,5 @@
 #header{
-    height: 1.02rem;/* 1rem = 1*50px */
+    height: 1.02rem;
     background: #06c1ae;
     line-height: 1.02rem;
     display: -webkit-box;
@@ -135,7 +135,6 @@
 #menu .brand{
     width: 1.8rem;
     height: 1.8rem;
-    /*float: left;*/
     -webkit-box-flex: 1;
 }
 #menu li{
@@ -145,7 +144,6 @@
     display: -webkit-box;
 }
 #menu .detail{
-    /*float: left;*/
     -webkit-box-flex: 2;
     margin-left: 0.3rem;
 }
@@ -160,9 +158,6 @@
 }
 #menu .detail-desc{
     margin-bottom: 0.2rem;
-}
-#menu .sold{
-    /*margin-left: 0.6rem;*/
 }
 
 

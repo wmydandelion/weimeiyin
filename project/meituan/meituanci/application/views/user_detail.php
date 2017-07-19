@@ -25,7 +25,6 @@
 </div>
 <h1 style="margin-top: 1.02rem;">当前用户为: <?php echo $this->session->userinfo->username; ?></h1>
 <h2>订单列表</h2>
-
 <table data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive"
        data-column-btn-theme="a" data-column-popup-theme="a" data-column-btn-text="选择显示的列">
     <thead>
@@ -36,10 +35,8 @@
         <th data-priority="1">数量</th>
         <th data-priority="1">订单单价</th>
         <th data-priority="1">订单总价</th>
-    </tr>
-             
-    </thead>
-             
+    </tr>         
+    </thead>       
     <tbody>
                 <?php foreach ($order_list as $order): ?>
         <tr>
@@ -50,13 +47,8 @@
             <td><?php echo $order->order_price; ?></td>
             <td><?php echo $order->total; ?></td>
         </tr>
-
-    <?php endforeach; ?>
-             
-    </tbody>
-           
+    <?php endforeach; ?>         
+    </tbody>       
 </table>
-
-
 </body>
 </html>

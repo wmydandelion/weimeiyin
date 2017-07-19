@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>我的美团jqm</title>
+    <title>我的美团</title>
     <base href="<?php echo site_url(); ?>">
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
@@ -25,8 +25,6 @@
             <div id="search">
                 <input type="text" placeholder="请输入商家/品类/商圈">
             </div>
-
-<!--            <a href="#popupMenu" data-rel="popup" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-gear ui-btn-icon-left ui-btn-a">Actions...</a>-->
             <div data-role="popup" id="popupMenu" data-theme="a">
                 <ul data-role="listview" data-inset="true" style="min-width:2rem;">
                     <li><a id="user-detail" href="javascript:;">个人信息</a></li>
@@ -185,7 +183,5 @@
             <button class="download">点击下载</button>
         </div>
     </div>
-
-
 </body>
 </html>
