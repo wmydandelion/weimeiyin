@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form onsubmit="return false">
+    <input id="num_a" />+<input id="num_b" /><br/><br/>
+    <output id="result" onforminput="resCalc()"></output>
+</form>
+<script type="text/javascript">
+    function resCalc(){
+        numA = document.getElementById('num_a').value;
+        numB = document.getElementById('num_b').value;
+        document.getElementById('result').value = String(numA) + String(numB);
+    }
+</script>
+</body>
+</html>
