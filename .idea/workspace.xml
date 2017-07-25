@@ -4,47 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/HTML5/html/折叠菜单2.html" line="55" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f449199c-dc7f-49aa-be17-d2aadd2ea4ac" name="Default" comment="HTML">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/2_标签.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/3_表单.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/4_视频与音频.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/6_json.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/9_俩周免登陆.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/canvas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/canvas画板.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/cookie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/cookie1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/float.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/html简介.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/line-height.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/列表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/垂直导航菜单.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/多级导航菜单.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/多级导航菜单1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/字母排序.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/字符串拼接的方式.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/定位2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/折叠菜单.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/折叠菜单2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/选项卡.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/选项卡1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/选项卡2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/选项卡3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/html/选项卡4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/js加载.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/output.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/sessionStore.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Travel-穷游网/Travel_hou" afterPath="$PROJECT_DIR$/project/Travel-穷游网/Travel_hou" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Travel-穷游网/Travel_qian" afterPath="$PROJECT_DIR$/project/Travel-穷游网/Travel_qian" />
+    <list default="true" id="f449199c-dc7f-49aa-be17-d2aadd2ea4ac" name="Default" comment="project">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Travel-穷游网/Travel_hou" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Travel-穷游网/Travel_middle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Travel-穷游网/Travel_qian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Travel-穷游网/Travel_sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Travel-qiongyouwang/Travel_hou" afterPath="$PROJECT_DIR$/project/Travel-qiongyouwang/Travel_hou" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Travel-qiongyouwang/Travel_middle" afterPath="$PROJECT_DIR$/project/Travel-qiongyouwang/Travel_middle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Travel-qiongyouwang/Travel_qian" afterPath="$PROJECT_DIR$/project/Travel-qiongyouwang/Travel_qian" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5/QQ小企鹅.html" afterPath="$PROJECT_DIR$/HTML5/QQ小企鹅.html" />
     </list>
     <list id="4327e316-3719-4aac-a6ef-bfc080198d3b" name="Rejected commit: Default" comment="gulp" />
     <list id="9bbfc5a9-b08b-4893-a310-90010442f71d" name="Rejected commit: Default (2)" comment="eshop" />
@@ -66,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/PERSON/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="485" column="10" lean-forward="true" selection-start-line="485" selection-start-column="10" selection-end-line="485" selection-end-column="10" />
+            <state relative-caret-position="4587">
+              <caret line="485" column="10" lean-forward="false" selection-start-line="485" selection-start-column="10" selection-end-line="485" selection-end-column="10" />
               <folding>
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -78,6 +46,16 @@
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QQ小企鹅.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML5/QQ小企鹅.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foundation/列表菜单.html" />
         <option value="$PROJECT_DIR$/foundation/选项卡.html" />
         <option value="$PROJECT_DIR$/foundation/切换选项卡.html" />
         <option value="$PROJECT_DIR$/foundation/淡入切换选项卡.html" />
@@ -162,6 +139,7 @@
         <option value="$PROJECT_DIR$/Semantic-UI/Pointing.html" />
         <option value="$PROJECT_DIR$/Vuex/vuex.js" />
         <option value="$PROJECT_DIR$/Vuex/state.html" />
+        <option value="$PROJECT_DIR$/HTML5/QQ小企鹅.html" />
       </list>
     </option>
   </component>
@@ -176,6 +154,8 @@
     <handled-path value="$PROJECT_DIR$/VueJs/axios/node_modules" />
     <handled-path value="$PROJECT_DIR$/VueJs/project/node_modules" />
     <handled-path value="$PROJECT_DIR$/gulp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/project/Travel-qiongyouwang/Travel_qian/node_modules" />
+    <handled-path value="$PROJECT_DIR$/project/Travel-qiongyouwang/node_modules" />
     <handled-path value="$PROJECT_DIR$/zeptojs/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
@@ -203,8 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,12 +223,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Travel-穷游网" />
+              <option name="myItemId" value="Travel-qiongyouwang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -271,18 +251,18 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/johnnysw/eshop.git" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\weimeiyin\project" />
+      <recent name="D:\code\weimeiyin\project\meituan" />
+      <recent name="D:\code\weimeiyin" />
+      <recent name="D:\code\weimeiyin\foundation" />
+      <recent name="D:\code\weimeiyin\project\meituan\meituanci" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\weimeiyin\VueJs" />
       <recent name="D:\code\weimeiyin" />
       <recent name="D:\code\weimeiyin\project\library\video" />
       <recent name="D:\code\weimeiyin\project\library\img" />
-      <recent name="D:\code\weimeiyin\project\library\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\weimeiyin\project\meituan" />
-      <recent name="D:\code\weimeiyin" />
-      <recent name="D:\code\weimeiyin\foundation" />
-      <recent name="D:\code\weimeiyin\project\meituan\meituanci" />
       <recent name="D:\code\weimeiyin\project\library\js" />
     </key>
   </component>
@@ -439,28 +419,8 @@
       <workItem from="1500424843126" duration="1287000" />
       <workItem from="1500459236034" duration="977000" />
       <workItem from="1500598647210" duration="1200000" />
-      <workItem from="1500812696359" duration="479000" />
-    </task>
-    <task id="LOCAL-00079" summary="vue">
-      <created>1496927714149</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1496927714149</updated>
-    </task>
-    <task id="LOCAL-00080" summary="weimeiyin">
-      <created>1499223910743</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1499223910744</updated>
-    </task>
-    <task id="LOCAL-00081" summary="正则表达式">
-      <created>1499223995828</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1499223995828</updated>
+      <workItem from="1500812696359" duration="1252000" />
+      <workItem from="1500995628162" duration="1335000" />
     </task>
     <task id="LOCAL-00082" summary="创建美团项目的首页">
       <created>1499225060412</created>
@@ -784,11 +744,32 @@
       <option name="project" value="LOCAL" />
       <updated>1500812922166</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="project">
+      <created>1500813219821</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1500813219821</updated>
+    </task>
+    <task id="LOCAL-00129" summary="HTML5">
+      <created>1500813358332</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1500813358333</updated>
+    </task>
+    <task id="LOCAL-00130" summary="project">
+      <created>1500996727821</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1500996727822</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131908000" />
+    <option name="totallyTimeSpent" value="134016000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -801,18 +782,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31530493" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32284382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10712401" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -897,11 +877,11 @@
     <MESSAGE value="javascript" />
     <MESSAGE value="zeptojs" />
     <MESSAGE value="php" />
-    <MESSAGE value="HTML5" />
     <MESSAGE value="foundation" />
     <MESSAGE value="foundationJs" />
     <MESSAGE value="semantic-ui" />
     <MESSAGE value="vuejs" />
+    <MESSAGE value="HTML5" />
     <MESSAGE value="project" />
     <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
@@ -957,13 +937,6 @@
     <entry file="https://github.com/johnnysw/eshop.git">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/QQ小企鹅.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="167" column="9" lean-forward="false" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation/圆角进度条.html">
@@ -1238,8 +1211,8 @@
     <entry file="file://$PROJECT_DIR$/Vuex/state.html" />
     <entry file="file://$PROJECT_DIR$/project/PERSON/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="485" column="10" lean-forward="true" selection-start-line="485" selection-start-column="10" selection-end-line="485" selection-end-column="10" />
+        <state relative-caret-position="4587">
+          <caret line="485" column="10" lean-forward="false" selection-start-line="485" selection-start-column="10" selection-end-line="485" selection-end-column="10" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1247,6 +1220,14 @@
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/QQ小企鹅.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
