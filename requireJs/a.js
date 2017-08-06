@@ -8,8 +8,9 @@ define(["b"], function (isArray) {
                 return a-b;
             });
         }else{
-            return "´æÈëµÄ²ÎÊý²»ÊÇÊý×é";
+            return "ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
         }
         }
         return arrSort;
 });
+
