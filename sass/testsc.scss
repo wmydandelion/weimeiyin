@@ -1,0 +1,83 @@
+@import "common";
+$color : #ccc;
+$color : #000 !default;
+$cls : nav;
+body{
+    background: $color;
+  #header{
+    width: 200px;
+    color: $color;
+    .a{
+      color: #fff;
+    }
+  }
+  .#{$cls}{
+    width: 200px;
+    background: url('img/#{$cls}.jpg') 0 0;
+    padding:{
+      top:10px;
+      bottom: 10px;
+    };
+    a{
+      color: #0a0a0a;
+      &:hover{
+        color: green;
+      }
+    }
+  }
+}
+.aa{
+  width: 200px;
+  height: 200px;
+  @include border();
+}
+@mixin css3($attr,$val){
+  -webkit-#{$attr}: $val;
+  #{$attr}: $val;
+}
+.bb{
+  @include css3(border-radius,10px);
+  a{
+    color: #d4d4d4;
+  }
+}
+.cc{
+  @include css3(border-radius,10px);
+}
+.ee{
+  width: 200px;
+  height: 200px;
+  @extend .bb;
+}
+%ff{
+  width: 200px;
+  height: 200px;
+}
+.g{
+  @extend %ff;
+}
+.h{
+  @extend %ff;
+}
+@function add($a ,$b){
+  @return $a+$b;
+};
+.k{
+  width:add(300px,300px);
+  height:str-index('abcd','a');
+  color: darken(#ddd,10%);
+}
+.arrow{
+  @include arrow('left',5px,red);
+}
+@for $i from 1 to 6{
+  .item-#{$i}{
+    width: $i*20px;
+  }
+}
+$icons : erroe waring right;
+@each $j in $icons{
+  .#{$j}{
+    background:url('images/#{$j}.jpg');
+  }
+}

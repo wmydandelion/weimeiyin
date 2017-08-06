@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+body {
+  background: #ccc; }
+  body #header {
+    width: 200px;
+    color: #ccc; }
+    body #header .a {
+      color: #fff; }
+  body .nav {
+    width: 200px;
+    background: url("img/nav.jpg") 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    body .nav a {
+      color: #0a0a0a; }
+      body .nav a:hover {
+        color: green; }
+
+.aa {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 5px 3px 5px #ddd;
+  -moz-box-shadow: 4px hoff voff blur #ddd;
+  box-shadow: 4px hoff voff blur #ddd; }
+
+.bb, .ee {
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+  .bb a, .ee a {
+    color: #d4d4d4; }
+
+.cc {
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+.ee {
+  width: 200px;
+  height: 200px; }
+
+.g, .h {
+  width: 200px;
+  height: 200px; }
+
+.k {
+  width: 600px;
+  height: 1;
+  color: #c4c4c4; }
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent red transparent transparent; }
+
+.item-1 {
+  width: 20px; }
+
+.item-2 {
+  width: 40px; }
+
+.item-3 {
+  width: 60px; }
+
+.item-4 {
+  width: 80px; }
+
+.item-5 {
+  width: 100px; }
+
+.erroe {
+  background: url("images/erroe.jpg"); }
+
+.waring {
+  background: url("images/waring.jpg"); }
+
+.right {
+  background: url("images/right.jpg"); }
+
+/*# sourceMappingURL=testsc.css.map */
