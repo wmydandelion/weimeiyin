@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Cat(name,age) {
+            this.name = name;
+            this.age = age;
+            this.eat = function () {
+                document.write(this.name+"-----eating <br>");
+            };
+    }
+    Cat.prototype.eat = function () {
+        document.write(this.name+"------prototype --- eating<br>");
+    }
+    var cat1 = new Cat('11',11);
+    cat1.eat();
+    var cat2 = new Cat("11");
+    cat2.eat();
+    var cat3 = new Cat(11);
+    cat3.eat();
+    var cat4 = new Cat();
+    cat4.eat();
+</script>
+</body>
+</html>
