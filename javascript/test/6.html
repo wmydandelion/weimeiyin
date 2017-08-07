@@ -7,17 +7,17 @@
 <body>
 <script>
     function star(num) {
-        for(var i=1; i<=num; i++){
-            for(var k=1; k<=num-i; k++){
-                document.write("&nbsp;");
-            }
-            for(var j=1; j<=i; j++){
-                document.write("*&nbsp;");
-            }
-            document.write("<br>");
-        }
+       for(var i =1;i<=num;i++){
+           for (var k=1;k<=num-i;k++){
+               document.write("&nbsp;");
+           }
+           for (var j = 1;j<=i;j++){
+               document.write("*&nbsp;");
+           }
+           document.write("<br>");
+       }
     }
-    star(100);
+    star(150);
 </script>
 </body>
 </html>
