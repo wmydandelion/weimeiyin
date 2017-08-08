@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//    console.log(1+ "2"+"2");
+//    console.log(1+ +"2"+"2");
+//    console.log("A"- "B"+"2");
+//    console.log("A"- "B"+2);
+
+
+//    void();
+
+
+//
+//function A() {
+////    this.do=function() {return 'foo';};
+//}
+//A.prototype=function() {
+//    this.do=function() {return 'bar';};
+//};
+//var x=new A().do();
+//console.log(x);
+
+//var bb = 1;
+//function aa(bb) {
+//    bb = 2;
+//    alert(bb);
+//};
+//aa(bb);
+//alert(bb);
+//var myObject = {
+//    foo: "bar",
+//    func: function() {
+//        var self = this;
+//        console.log(this.foo);
+//        console.log(self.foo);
+//        (function() {
+//            console.log(this.foo);
+//            console.log(self.foo);
+//        }());
+//    }
+//};
+//myObject.func();
+
+function test() {
+    var n = 4399;
+
+function add() {
+    n ++;
+    console.log(n);
+}
+return {
+    n:n,add:add
+}
+}
+var result = test();
+var result2 = test();
+result.add();
+result2.add();
+console.log(result);
+result2.add();
+</script>
+</body>
+</html>
