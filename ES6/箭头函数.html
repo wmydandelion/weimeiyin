@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var add1 = function (a,b) {
+        return a+b;
+    }
+    const add = (a,b) => a+b;
+
+    function Person(){
+        this.age = 0;
+        setInterval(function () {
+            this.age ++;
+        },1000);
+        setInterval(()=>{
+            this.age++;
+        },1000);
+    }
+    var p = new Person();
+    console.log(p);
+</script>
+</body>
+</html>

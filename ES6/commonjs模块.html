@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function sum(x,y){
+        return x + y;
+    }
+    const  PI = 3.1415926;
+    module.exports = {
+        sum : sum,
+        PI : PI
+    };
+    const math = require('math');
+    console.log("2pi="+math.sum(math.PI,math.PI) );
+</script>
+</body>
+</html>
