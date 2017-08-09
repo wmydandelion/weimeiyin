@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.group('1');
+    console.log('1');
+    console.log('1');
+    console.log('1');
+    console.groupEnd('1');
+    console.group('1');
+    console.log('1');
+    console.log('1');
+    console.log('1');
+    console.groupEnd('1');
+    var info = {
+        blog : "111",
+        QQ : "12343",
+        message : "2f4gg"
+    };
+    console.dir(info);
+
+    var result = 1;
+    console.assert(result);
+    var year = 20;
+    console.assert(result == year);
+    console.assert(result != year);
+    function add(a,b) {
+        console.trace();
+        return a+b;
+    }
+    var x = add3(1,1);
+   function add3(a,b) {
+       return add2(a,b);
+   }
+    function add2(a,b) {
+        return add1(a,b);
+    }
+    function add1(a,b) {
+        return add(a,b);
+    }
+
+    console.time("控制台计时器-");
+    for(var i=0;i<1000;i++){
+        for(var j=0;j<1000;j++){
+
+        }}
+    console.timeEnd("控制台计时器-");
+
+    function All(){
+        alert(111);
+        for(var i=0;i<10;i++){
+            funcA(10000);
+        }
+        funcB(10000);
+    }
+    function funcA(count){
+        for(var i=0;i<count;i++){
+        }
+    }
+    function funcB(count){
+        for(var i=0;i<count;i++){
+        }
+    }
+    console.profile("性能分析器");
+    All();
+    console.profileEnd("性能分析器");
+</script>
+</body>
+</html>
