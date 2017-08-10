@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="ctrl01">
+        <h1>{{uname}}</h1>
+        <h1>{{$parent.uname}}</h1>
+        <!--<div ng-controller="ctrl03">-->
+            <!--<h1>{{uname}}</h1>-->
+        <!--</div>-->
+    </div>
+    <div ng-controller="ctrl02">
+        <h1>{{uname}}</h1>
+    </div>
+<script src="angular.min.js"></script>
+<script src="app2.js">
+
+</script>
+
+
+</body>
+</html>
