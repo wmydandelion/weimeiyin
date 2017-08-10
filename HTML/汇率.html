@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#msg{
+				line-height: 150px;
+				text-align: center;
+				font-size: 230%;
+				font-family: sans-serif;
+			}
+			form,h2{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>外汇兑换</h2>
+		<hr />
+		<form action="?check" method="post">
+			<input type="text" name="quantity" />
+			<select name="currency">
+				<option value="USD">美元</option>
+				<option value="HKD">港元</option>
+				<option value="EUR">欧元</option>
+				<option value="GBP">英镑</option>
+				<option value="JPY">日元</option>
+			</select>
+			<button type="submit">兑换</button>
+		</form>
+		<div id="msg"></div>
+		<?php
+			if(isset($_REQUEST['check'])){
+				define('USD',6.125);
+				define('HKD',0.786);
+				define('EUR',7.899);
+				define('GBP',9.214);
+				define('JPY',0.061);
+				$quantity = intval($_REQUEST['quantity']);
+				$currency = $_REQUEST['currency'];
+			switch($currency){
+				case 'USD':
+				$amount = $quantity * USD;
+				break;
+				case 'HKD':
+				$amount = $quantity * HKD;
+				break;
+				case 'EUR':
+				$amount = $quantity * EUR;
+				break;
+				case 'GBP':
+				$amount = $quantity * GBP;
+				break;
+				case 'JPY':
+				$amount = $quantity * JPY;
+				break;
+			}
+			echo '<script ge="javascript">document.getElementById("msg")
+				.innerHTML="'.
+				$quantity.' '.$currency.'='.$amount.'RMB'.
+				'"</script>';
+			}
+			?>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			#container{
+				width: 300px;
+				height: 200px;
+				background:hotpink;
+			    overflow:hidden;
+				position: relative;
+			}
+			#content{
+				width: 280px;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			#scroll-bar{
+				width: 20px;
+				height: 200px;
+				background: #aaa;
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+			#scroll-btn{
+				width: 20px;
+				height: 20px;
+				background: #ff0000;
+				position: absolute;
+				left: 0;
+				top: 0;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="content">
+				有时候，等一个，等得太久了，会忘记他的模样，甚至名姓；
+				有时候，等一朵莲开，等得太久，会让分明的四季，变得模糊不清，
+				可是莲荷，在每年夏季终究要应约而来，但有些人，
+				任你耗费一生的时光，也等不到。
+				你要知道，我是从来不会把你当笑话讲的，连提都不会提起，我怕一说你就变
+				了样子。我忘了只剩冰绝孤单，忘了眼泪不过是喧嚷，忘了百年无声口号，没
+				能忘记你。
+				我庆幸在那年遇到了你，也难过在那年遇到了你。我的所有运气好像还是不够你
+				喜欢我，只够遇到我。我南来，你北往，多少年都随风而去，我们在彼此的生活
+				里失了踪，再无可能。
+				我从未想过有一天我会如此喜欢你，可我们再来不及重新认识一遍。你留给我冗
+				长的记忆，像是清晨朗诵篇，参差不齐的韵脚音节，在我心里面修改了一遍又一遍。
+				后来我会想起你，你挺括的衣，清洁的耳后，沾些水汽的发梢，皱眉时的眼神，皮
+				鞋磨损的边缘，修长干净的手指，垂首时的下颌，走路时微曲的颈椎，唯独记不起
+				的是你的面孔，却请你一定不要责怪我，因为你明明知道，我仍念念不忘。
+				你爱上了曲院酿酒的娘子，在隔壁街开了酒肆，不卖酒，送酒，不喝酒，闻酒香，
+				送完壹佰壹十坛老窖，就上门提亲。我难过，难过的不是要放弃你，是我此生都
+				无法陪你经历了，无法伴你一起终老。
+				迟早有一天我会把你戒掉，就算看到你被别人拥有我不会羡慕想要。你我心
+				里都住着一个不可能的人，请等一等，我怕赶不上你写的人生。
+			</div>
+			<div id="scroll-bar">
+				<span id="scroll-btn"></span>
+			</div>
+		</div>
+		<script>
+			var oContainer = document.getElementById('container');
+			var oContent = document.getElementById('content');
+			var oScrollBtn = document.getElementById('scroll-btn');
+			oScrollBtn.onmousedown = function(e){
+				e = e || window.event;
+				iDisY = e.clientY - oContainer.offsetTop - oScrollBtn.offsetTop;
+				document.onmousemove = function(e){
+					e = e || window.event;
+					var iTop = e.clientY - oContainer.offsetTop - iDisY;
+					if(iTop <= 0){
+						iTop = 0;
+					}
+					if(iTop >= oContainer.offsetHeight - oScrollBtn.offsetHeight){
+						iTop = oContainer.offsetHeight - oScrollBtn.offsetHeight;
+					}
+					oScrollBtn.style.top = iTop + 'px';
+					
+					var fScale = iTop / (oContainer.offsetHeight - oScrollBtn.offsetHeight);
+					oContent.style.top = - (oContent.offsetHeight - oContainer.offsetHeight) * fScale + 'px';
+				return false;
+				
+				};
+				document.onmouseup = function(){
+					document.onmousemove = null;
+					document.onmouseup = null;
+				};
+			};
+		</script>
+	</body>
+</html>

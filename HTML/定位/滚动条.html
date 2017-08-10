@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		#container{
+			width: 300px;
+			height: 200px;
+			background: pink;
+			overflow: hidden;
+			position: relative;
+		}	
+		#content{
+			width: 280px;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		#scroll-bar{
+			width: 20px;
+			height: 200px;
+			background: #aaa;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		#scroll-btn{
+			width: 20px;
+			height: 20px;
+			background: orangered;
+			position: absolute;
+			left: 0;
+			top: 0;
+			cursor: pointer;
+		}
+		</style>
+
+	</head>
+	<body>
+		<div id="container">
+			<div id="content">
+				Heading标签的作用 
+标题（Heading）是通过 <h1> - <h6> 标签定义  
+<h1> 定义最大的标题。 <h6> 定义最小的标题  
+自动地在标题的前后添加空行  
+请确保将 HTML 标题 标签只用于标题。不要仅仅是 为了生成粗体或大号的文本而使用标题  
+搜索引擎使用标题为网页的结构和内容编制索引  
+用户可以通过标题来快速浏览您的网页，所以用标题 来呈现文档结构很重要  
+应该将 h1 用作主标题（最重要的），其后是 h2（次 重要的），再其次是 h3，以此类推  
+<a>标签的作用，基本属性及使用 
+HTML 使用超级链接与网络上的另一个文档相连  
+点击链接可以从一张页面跳转到另一张页面  
+超链接可以是一个字，一个词，一组词，一幅图像  
+可以点击这些内容来跳转到新的文档或者当前文档中 的某个部分  
+当把鼠标指针移动到网页中的某个链接上时，箭头会 变为一只小手  
+在标签<a> 中使用了href属性来描述链接的地址  默认情况下，链接将以以下形式出现在浏览器中：  
+一个未访问过的链接显示为蓝色字体并带有下划线  
+访问过的链接显示为紫色并带有下划线  点击链接时，链接显示为红色并带有下划线 
+<ul><ol><li>标签的作用及基本使用 
+ 无序列表(Unordered HTML List)，无序号列表  
+<ul>无序列表标签  
+<li>列表项  
+可通过CSS list-style-type属性定义项类型 
+ 有序列表(Ordered HTML List)，有序号列表  
+<ol>有序列表标签  
+<li>列表项  
+可通过<ol> type属性定义项类型 
+块级元素与内联级元素的区别，及各自包含的主要标签元素 
+ 块级元素(Block-level Elements)，以新行开始与结束  <div>，<h1> - <h6>，<p>，<form>，<table>  
+内联元素(Inline Elements)，不以新行开始  
+<span>，<a>，<img>  
+<div>元素，属于块级元素，本身没有特定意义  
+是用于组合其他HTML的容器 与CSS一起使用用于对大的内容块设置样式属性  
+通过定义多div布局整个文档结构  
+<div><span>标签的作用意义基本使用 
+<div>元素，属于块级元素，本身没有特定意义  
+是用于组合其他HTML的容器 与CSS一起使用用于对大的内容块设置样式属性  
+通过定义多div布局整个文档结构 
+ <span>元素，是内联元素，可用作文本的容器，本身也没有特定的含义  
+与 CSS一同使用时，<span> 元素可用于为部分文本设置样式属性 
+<form>标签的作用，基本属性及使用
+表单是一个包含表单元素的区域  
+允许用户在表单中输入内容，比如：文本输入域、下 拉列表、单选框、复选框等  
+表单不可见  
+<form>元素  
+			</div>
+		
+			<div id="scroll-bar">
+			     <span id="scroll-btn"></span>
+			</div>
+		</div>
+		<script>
+			var oContainer =  document.getElementById('container');
+			var oContent = document.getElementById('content');
+			var oSrollBtn = document.getElementById('scroll-btn');
+			oSrollBtn.onmousedown = function(e){
+				e = e || window.event;
+				iDisY = e.clientY - oContainer.offsetTop - oScrollBtn.offsetTop;
+				document.onmousemove = function(e){
+					e = e || window.event;
+					var iTop = e.clientY - oContainer.offsetTop - iDisY;
+					if(iTop <=0){
+						iTop =0;
+					}
+					if(iTop >= oContainer.offsetHeight - oSrollBtn.offsetHeight){
+						iTop = oContainer.offsetHeight - oSrollBtn.offsetHeight;
+					}
+					oSrollBtn.style.top = iTop + 'px';
+					
+					var fScale = iTop / (oContainer.offsetHeight - oSrollBtn.offsetHeight);
+					
+					 oContent.style.top = -(oContainer.offsetHeight - oContainer.offsetHeight) * fScale +'px';
+					 return false;
+				};
+				document.onmouseup = function(){
+					document.onmousemove = null;
+					document.onmouseup =null;
+					
+				};
+				
+			};
+			
+		</script>
+		
+	</body>
+</html>

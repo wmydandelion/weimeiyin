@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		tr>td:first-of-type{
+			width: 30%;
+			text-align: right;
+			background-color: #FF7837;
+		}
+		tr>td:first-of-type::selection{
+            color: white;
+			background-color: green;
+		}
+		tr>td:last-child{
+			background-color: #FFAD86;
+		}
+		input[type="text"]{
+			border-radius: 5px;			
+		}
+		input[type="text"]::disabled{
+			color: red;
+			border: 1px solid red;			
+		}
+		input[type="checkbox"]:nth-last-of-type(0dd){
+			outline: 1px dotted blue;			
+		}
+		input[type="checkbox"]:nth-last-of-type(even){
+			outline: 2px dotted blue;			
+		}
+		input[type="radio"]:checked{
+			outline: 1px outset red;			
+		}
+		table:before{
+			content: "设计表单页面";
+			font-size: 24px;
+			font-weight: bold;
+		}
+		</style>
+	</head>
+	<body>
+		<form id="myfrom" action="#" method="post">
+			<table width="80%" align="center">
+				<tr>
+					<td>姓名：</td>
+					<td><input type="text" required/></td>
+				</tr>
+				<tr>
+					<td>年龄：</td>
+					<td><input type="number" value="18" max="99"/></td>
+				</tr>
+				<tr>
+					<td>户籍所在地：</td>
+					<td><input type="text" value="河南 郑州" disabled/></td>					
+				</tr>
+				<tr>
+					<td>兴趣：</td>
+					<td><input type="checkbox" value="chass"/>唱歌	
+					<input type="checkbox" value="playbass"/>打篮球	
+					<input type="checkbox" value="pa" />爬山	
+					</td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td><input type="radio" name="sex" value="0" checked/>男	
+					<input type="radio" name="sex" value="1"/>女		
+					</td>
+				</tr>
+				<tr>
+					<td>备注说明：</td>
+					<td><textarea rows="20" cols="20"></textarea>							
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><input type="button" value="提交" />							
+					</td>
+				</tr>
+			</table>
+			
+		</form>
+	<script>
+		
+	</script>
+	</body>
+
+</html>
